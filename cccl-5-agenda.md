@@ -1,8 +1,18 @@
-# CCCL #5 — Claude Code for Everyone
+---
+layout: default
+title: "CCCL #5 — Claude Code for Everyone"
+description: "6 talks, lightning intros, networking, and a mystery segment."
+event_date: "Monday 7 April 2026"
+meta:
+  - label: Time
+    value: "18:15 – 20:30"
+  - label: Location
+    value: "Central London"
+  - label: Format
+    value: "6 talks + lightning intros + mystery"
+---
 
-**Monday 7 April 2026 | 18:15–20:30 | Central London**
-
-## Agenda
+## Schedule
 
 | Time | |
 |------|-|

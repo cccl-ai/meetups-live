@@ -1,10 +1,19 @@
-# CCCL #5B — Claude Code for Agentic Engineering
+---
+layout: default
+title: "CCCL #5B — Claude Code for Agentic Engineering"
+description: "Speakers from Figma, Google, CrowdStrike. 6 talks on AI-powered workflows."
+event_date: "Tuesday 8 April 2026"
+subtitle: "Co-hosted with Rob Hart (AI for Engineers London)"
+meta:
+  - label: Doors
+    value: "17:30 — food & drinks"
+  - label: Talks
+    value: "18:15 – 20:20"
+  - label: Venue
+    value: "The Trampery Old Street"
+---
 
-**Tuesday 8 April 2026 | 17:30–21:00 | The Trampery Old Street**
-
-Co-hosted with Rob Hart (AI for Engineers London).
-
-## Agenda
+## Schedule
 
 | Time | |
 |------|-|

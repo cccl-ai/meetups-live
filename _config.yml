@@ -1,0 +1,7 @@
+title: CCCL Live Meetups
+description: Agendas and reports for CCCL live meetups in Central London
+url: https://cccl-ai.github.io
+baseurl: /meetups-live
+markdown: kramdown
+kramdown:
+  input: GFM

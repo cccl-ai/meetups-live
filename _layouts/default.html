@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — CCCL Live Meetups</title>
+  <meta name="description" content="{{ page.description | default: page.title }}">
+  <meta property="og:title" content="{{ page.title }} — CCCL Live Meetups">
+  <meta property="og:description" content="{{ page.description | default: page.title }}">
+  <meta property="og:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="CCCL Live Meetups">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} — CCCL Live Meetups">
+  <meta name="twitter:description" content="{{ page.description | default: page.title }}">
+  <meta name="twitter:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
+  <link rel="icon" href="https://cccl.ai/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="https://cccl.ai/events" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        All Events
+      </a>
+    </header>
+
+    <div class="page-header">
+      {% if page.event_date %}<div class="page-date">{{ page.event_date }}</div>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.meta %}
+      <div class="meta-grid">
+        {% for item in page.meta %}
+        <div class="meta-item">
+          <div class="meta-label">{{ item.label }}</div>
+          {{ item.value }}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <footer>
+      <a href="https://cccl.ai">cccl.ai</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a>
+    </footer>
+  </div>
+</body>
+</html>

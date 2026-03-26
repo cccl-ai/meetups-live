@@ -1,8 +1,20 @@
-# Claude Code Central London #4
+---
+layout: default
+title: "CCCL #4 Agenda"
+description: "6 talks, 5 lightning intros, a mystery robot, and community awards."
+event_date: "Monday 16 March 2026"
+meta:
+  - label: Time
+    value: "18:15 – 20:30"
+  - label: Venue
+    value: "Vonage, Central London"
+  - label: On stage
+    value: "17 speakers"
+  - label: Checked in
+    value: "87 attendees"
+---
 
-**Monday 16 March 2026 | 18:15–20:30 | Vonage, Central London**
 
-87 attendees. 17 speakers.
 
 ## Schedule
 
