@@ -1,39 +1,62 @@
 # Claude Code Central London #4
 
-**Monday 16 March 2026 | 18:15–20:30 | Central London**
+**Monday 16 March 2026 | 18:15–20:30 | Vonage, Central London**
 
-## Agenda
+87 attendees. 17 speakers.
 
-| Time | |
-|------|-|
-| 18:15 | Welcome |
-| 18:25 | Lightning intros (5 x 2 min) |
-| 18:35 | Talk 1 |
-| 18:47 | Talk 2 |
-| 18:59 | Talk 3 |
+## Schedule
+
+| Time | What |
+|------|------|
+| 18:15 | Welcome — Jamil + Vikram |
+| 18:25 | Lightning intros — Diana, Edwin, Francesco, Ibrahim, Kir |
+| 18:35 | "Auto coding agent platform" — Avdhesh Singh Chouhan |
+| 18:47 | "Privacy-first dictation app" — Ben Butterworth |
+| 18:59 | "Remote Claude sessions from mobile" — Connor Adams |
 | 19:11 | Break — networking & drinks |
-| 19:21 | Talk 4 |
-| 19:33 | Talk 5 |
-| 19:45 | Talk 6 |
-| 19:57 | Mystery — revealed on the night |
-| 20:20 | Closing |
+| 19:21 | "Transforming business with Claude Code" — Efan Mutembo |
+| 19:33 | "Open source Claude Code plugins" — Sandi Samantaray |
+| 19:45 | "Building Swiftly with Claude Code" — Shashwat Verma |
+| 19:57 | Mystery segment — Oscar the Robot (Panny) |
+| 20:10 | Community Awards |
+| 20:20 | Closing + networking |
 
 Each speaker introduced by a community member. All talks ~10 min.
 
-## How It Works
+## Talks
 
-**Speakers (6)** — 10 min demo or talk. You get a title slide with your name, topic, and QR code. You can add more slides for your talk.
+- **Avdhesh Singh Chouhan** — Auto coding agent platform
+- **Ben Butterworth** — Privacy-first dictation app
+- **Connor Adams** — Remote Claude sessions from mobile
+- **Efan Mutembo** — Transforming business with Claude Code
+- **Sandi Samantaray** — Open source Claude Code plugins
+- **Shashwat Verma** — Building Swiftly with Claude Code
 
-**Introducers (6)** — One per speaker. You get ~90 seconds and your own slide to talk about yourself and your work, then introduce the speaker.
+## Lightning Intros
 
-**Lightning intros (5)** — 90 sec each. You get a slide with your name, what you do, and a QR code (LinkedIn/website).
+- Diana Deng
+- Edwin Trebels
+- Francesco Redente
+- Ibrahim Malik
+- Kir Zharov
 
-## Slides
+## Community Introducers
 
-Every introduction slide displayed on screen includes:
-- Your name and what you do
-- QR code (LinkedIn, website, or project link)
-- A funny quote (we'll ask you for one)
-- Speakers: also includes talk title
+- Ethan Horsfall
+- Felix Brockmeier
+- Khyara Ranaweera
+- Libby Swan
+- Shefali Bohra
+- Talha Sheikh
 
-That's **17 intro slides** total — 6 speakers + 6 introducers + 5 lightning intros.
+## Mystery Segment
+
+Panny brought Oscar — a mini robot that's entirely self-contained. He changed the operating system just days before the event and was still working out the kinks, but was determined to present. Oscar won the hearts of the room.
+
+## Community Awards
+
+Based on WhatsApp group activity — analysed by Claude, of course:
+
+- **Most Charming:** Francisco
+- **Most Helpful:** Aditya Wagh
+- **Most Knowledgeable:** Aditya Wagh
