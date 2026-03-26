@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCCL Live Meetups</title>
+  <meta name="description" content="Agendas and reports for CCCL live meetups in Central London.">
+  <link rel="icon" href="https://cccl.ai/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --navy: #0f0f1e;
+      --copper: #e86c00;
+      --text: #e8e6e3;
+      --text-secondary: #a09caf;
+      --text-muted: #6b6780;
+      --border: rgba(255,255,255,0.06);
+    }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--navy);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+    .wrapper { max-width: 800px; margin: 0 auto; padding: 60px 24px; }
+    h1 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 42px;
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+    .subtitle { color: var(--text-secondary); margin-bottom: 48px; }
+    .event-list { list-style: none; }
+    .event-list li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .event-list a {
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .event-list a:hover { color: var(--copper); }
+    .event-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    footer a { color: var(--copper); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>CCCL Live Meetups</h1>
+    <p class="subtitle">Agendas and reports for in-person meetups in Central London.</p>
+
+    <ul class="event-list">
+      <li>
+        <a href="cccl-4-agenda">
+          <span>CCCL #4 — Agenda</span>
+          <span class="event-date">16 Mar 2026</span>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <a href="https://cccl.ai">cccl.ai</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a>
+    </footer>
+  </div>
+</body>
+</html>
