@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCCL #4 Agenda — Claude Code Central London</title>
-  <meta name="description" content="Agenda for CCCL #4: 6 talks, lightning intros, networking, and a mystery segment.">
+  <meta name="description" content="CCCL #4: 6 talks, 5 lightning intros, 6 community introducers, a mystery robot, and community awards.">
   <meta property="og:title" content="CCCL #4 Agenda — Claude Code Central London">
-  <meta property="og:description" content="6 talks, lightning intros, networking, and a mystery segment. 16 March 2026 in Central London.">
+  <meta property="og:description" content="6 talks, 5 lightning intros, a mystery robot, and community awards. 16 March 2026.">
   <meta property="og:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
   <meta property="og:url" content="https://cccl-ai.github.io/meetups-live/cccl-4-agenda">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="CCCL Live Meetups">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CCCL #4 Agenda — Claude Code Central London">
-  <meta name="twitter:description" content="6 talks, lightning intros, networking, and a mystery segment.">
+  <meta name="twitter:description" content="6 talks, 5 lightning intros, a mystery robot, and community awards.">
   <meta name="twitter:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
   <link rel="icon" href="https://cccl.ai/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,220 +21,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
     :root {
-      --navy: #0f0f1e;
-      --navy-mid: #161630;
-      --navy-light: #1e1e3a;
-      --surface: #232346;
-      --copper: #e86c00;
-      --copper-light: #f0933a;
-      --gold: #f5c778;
-      --text: #e8e6e3;
-      --text-secondary: #a09caf;
-      --text-muted: #6b6780;
-      --border: rgba(255,255,255,0.06);
-      --border-strong: rgba(255,255,255,0.1);
+      --navy: #0f0f1e; --navy-mid: #161630; --copper: #e86c00; --copper-light: #f0933a;
+      --gold: #f5c778; --text: #e8e6e3; --text-secondary: #a09caf; --text-muted: #6b6780;
+      --border: rgba(255,255,255,0.06); --border-strong: rgba(255,255,255,0.1);
     }
-
     html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'DM Sans', system-ui, sans-serif;
-      background: var(--navy);
-      color: var(--text);
-      min-height: 100vh;
-      overflow-x: hidden;
-      line-height: 1.7;
-    }
-
-    body::before {
-      content: '';
-      position: fixed;
-      top: -50%; left: -50%;
-      width: 200%; height: 200%;
-      background:
-        radial-gradient(ellipse at 20% 20%, rgba(232,108,0,0.04) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 80%, rgba(100,80,200,0.03) 0%, transparent 50%);
-      z-index: 0;
-      pointer-events: none;
-    }
-
-    body::after {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
-      background-size: 60px 60px;
-      z-index: 0;
-      pointer-events: none;
-    }
-
-    .wrapper {
-      position: relative;
-      z-index: 1;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    header {
-      padding: 40px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .back-link {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text-muted);
-      text-decoration: none;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      transition: color 0.3s ease;
-    }
-
+    body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--navy); color: var(--text); min-height: 100vh; overflow-x: hidden; line-height: 1.7; }
+    body::before { content: ''; position: fixed; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(ellipse at 20% 20%, rgba(232,108,0,0.04) 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(100,80,200,0.03) 0%, transparent 50%); z-index: 0; pointer-events: none; }
+    body::after { content: ''; position: fixed; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px); background-size: 60px 60px; z-index: 0; pointer-events: none; }
+    .wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 40px 0; display: flex; align-items: center; justify-content: space-between; }
+    .back-link { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; color: var(--text-muted); text-decoration: none; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.3s ease; }
     .back-link:hover { color: var(--copper); }
-
-    .page-header {
-      margin-bottom: 48px;
-      padding-bottom: 36px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .page-date {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 14px;
-      color: var(--copper);
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .page-date::before {
-      content: '';
-      width: 24px;
-      height: 1px;
-      background: var(--copper);
-    }
-
-    .page-header h1 {
-      font-family: 'Instrument Serif', Georgia, serif;
-      font-size: clamp(36px, 5vw, 52px);
-      font-weight: 400;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      margin-bottom: 24px;
-    }
-
-    .meta-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-    }
-
-    .meta-item {
-      font-size: 14px;
-      color: var(--text-secondary);
-    }
-
-    .meta-label {
-      color: var(--text-muted);
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 4px;
-    }
-
-    h2 {
-      font-family: 'Instrument Serif', Georgia, serif;
-      font-size: 28px;
-      font-weight: 400;
-      margin: 48px 0 20px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-      color: var(--gold);
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
-
-    th {
-      text-align: left;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--text-muted);
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--border-strong);
-    }
-
-    td {
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--border);
-      font-size: 15px;
-      color: var(--text-secondary);
-    }
-
-    tr:hover td {
-      background: rgba(232,108,0,0.03);
-    }
-
-    .time-cell {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 13px;
-      color: var(--copper-light);
-      white-space: nowrap;
-    }
-
-    p {
-      margin: 16px 0;
-      color: var(--text-secondary);
-      font-size: 15px;
-    }
-
+    .page-header { margin-bottom: 48px; padding-bottom: 36px; border-bottom: 1px solid var(--border); }
+    .page-date { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--copper); margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
+    .page-date::before { content: ''; width: 24px; height: 1px; background: var(--copper); }
+    .page-header h1 { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(36px, 5vw, 52px); font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 24px; }
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+    .meta-item { font-size: 14px; color: var(--text-secondary); }
+    .meta-label { color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+    h2 { font-family: 'Instrument Serif', Georgia, serif; font-size: 28px; font-weight: 400; margin: 48px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); color: var(--gold); }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); padding: 10px 12px; border-bottom: 1px solid var(--border-strong); }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 15px; color: var(--text-secondary); }
+    tr:hover td { background: rgba(232,108,0,0.03); }
+    .time-cell { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--copper-light); white-space: nowrap; }
+    p { margin: 16px 0; color: var(--text-secondary); font-size: 15px; }
     strong { color: var(--text); }
-
-    .section {
-      margin-bottom: 40px;
-      padding: 24px;
-      background: var(--navy-mid);
-      border-radius: 12px;
-      border: 1px solid var(--border);
-    }
-
-    .section h3 {
-      font-family: 'Instrument Serif', Georgia, serif;
-      font-size: 20px;
-      font-weight: 400;
-      color: var(--copper-light);
-      margin-bottom: 12px;
-    }
-
-    footer {
-      margin-top: 80px;
-      padding: 40px 0;
-      border-top: 1px solid var(--border);
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 14px;
-    }
-
-    footer a {
-      color: var(--copper);
-      text-decoration: none;
-    }
-
+    .speaker-card { margin-bottom: 16px; padding: 24px; background: var(--navy-mid); border-radius: 12px; border: 1px solid var(--border); }
+    .speaker-card h3 { font-family: 'Instrument Serif', Georgia, serif; font-size: 20px; font-weight: 400; color: var(--text); margin-bottom: 4px; }
+    .speaker-card .talk-title { font-size: 15px; color: var(--text-secondary); font-style: italic; }
+    .people-list { margin: 20px 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+    .people-list li { padding: 6px 14px; background: var(--navy-mid); border: 1px solid var(--border); border-radius: 8px; font-size: 14px; color: var(--text-secondary); }
+    .mystery { margin: 24px 0; padding: 24px; background: var(--navy-mid); border-radius: 12px; border: 1px solid var(--border); }
+    .mystery h3 { font-family: 'Instrument Serif', Georgia, serif; font-size: 20px; font-weight: 400; color: var(--gold); margin-bottom: 8px; }
+    footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 14px; }
+    footer a { color: var(--copper); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
   </style>
 </head>
@@ -249,70 +72,95 @@
 
     <div class="page-header">
       <div class="page-date">Monday 16 March 2026</div>
-      <h1>CCCL #4 Agenda</h1>
+      <h1>CCCL #4</h1>
       <div class="meta-grid">
-        <div class="meta-item">
-          <div class="meta-label">Time</div>
-          18:15 – 20:30
-        </div>
-        <div class="meta-item">
-          <div class="meta-label">Location</div>
-          Central London
-        </div>
-        <div class="meta-item">
-          <div class="meta-label">Format</div>
-          6 talks + lightning intros + mystery
-        </div>
+        <div class="meta-item"><div class="meta-label">Time</div>18:15 – 20:30</div>
+        <div class="meta-item"><div class="meta-label">Venue</div>Vonage, Central London</div>
+        <div class="meta-item"><div class="meta-label">On stage</div>17 speakers</div>
+        <div class="meta-item"><div class="meta-label">Checked in</div>87 attendees</div>
       </div>
     </div>
 
     <h2>Schedule</h2>
     <table>
-      <thead>
-        <tr><th>Time</th><th>What</th></tr>
-      </thead>
+      <thead><tr><th>Time</th><th>What</th></tr></thead>
       <tbody>
-        <tr><td class="time-cell">18:15</td><td><strong>Welcome</strong></td></tr>
-        <tr><td class="time-cell">18:25</td><td><strong>Lightning intros</strong> (5 &times; 2 min)</td></tr>
-        <tr><td class="time-cell">18:35</td><td>Talk 1</td></tr>
-        <tr><td class="time-cell">18:47</td><td>Talk 2</td></tr>
-        <tr><td class="time-cell">18:59</td><td>Talk 3</td></tr>
+        <tr><td class="time-cell">18:15</td><td><strong>Welcome</strong> — Jamil + Vikram</td></tr>
+        <tr><td class="time-cell">18:25</td><td><strong>Lightning intros</strong> — Diana, Edwin, Francesco, Ibrahim, Kir</td></tr>
+        <tr><td class="time-cell">18:35</td><td><strong>"Auto coding agent platform"</strong> — Avdhesh Singh Chouhan</td></tr>
+        <tr><td class="time-cell">18:47</td><td><strong>"Privacy-first dictation app"</strong> — Ben Butterworth</td></tr>
+        <tr><td class="time-cell">18:59</td><td><strong>"Remote Claude sessions from mobile"</strong> — Connor Adams</td></tr>
         <tr><td class="time-cell">19:11</td><td><strong>Break</strong> — networking &amp; drinks</td></tr>
-        <tr><td class="time-cell">19:21</td><td>Talk 4</td></tr>
-        <tr><td class="time-cell">19:33</td><td>Talk 5</td></tr>
-        <tr><td class="time-cell">19:45</td><td>Talk 6</td></tr>
-        <tr><td class="time-cell">19:57</td><td><strong>Mystery</strong> — revealed on the night</td></tr>
-        <tr><td class="time-cell">20:20</td><td><strong>Closing</strong></td></tr>
+        <tr><td class="time-cell">19:21</td><td><strong>"Transforming business with Claude Code"</strong> — Efan Mutembo</td></tr>
+        <tr><td class="time-cell">19:33</td><td><strong>"Open source Claude Code plugins"</strong> — Sandi Samantaray</td></tr>
+        <tr><td class="time-cell">19:45</td><td><strong>"Building Swiftly with Claude Code"</strong> — Shashwat Verma</td></tr>
+        <tr><td class="time-cell">19:57</td><td><strong>Mystery segment</strong> — Oscar the Robot (Panny)</td></tr>
+        <tr><td class="time-cell">20:10</td><td><strong>Community Awards</strong></td></tr>
+        <tr><td class="time-cell">20:20</td><td><strong>Closing</strong> + networking</td></tr>
       </tbody>
     </table>
-    <p>Each speaker introduced by a community member. All talks ~10 min.</p>
 
-    <h2>How It Works</h2>
+    <h2>Talks</h2>
 
-    <div class="section">
-      <h3>Speakers (6)</h3>
-      <p>10 min demo or talk. You get a title slide with your name, topic, and QR code. You can add more slides for your talk.</p>
+    <div class="speaker-card">
+      <h3>Avdhesh Singh Chouhan</h3>
+      <div class="talk-title">"Auto coding agent platform"</div>
+    </div>
+    <div class="speaker-card">
+      <h3>Ben Butterworth</h3>
+      <div class="talk-title">"Privacy-first dictation app"</div>
+    </div>
+    <div class="speaker-card">
+      <h3>Connor Adams</h3>
+      <div class="talk-title">"Remote Claude sessions from mobile"</div>
+    </div>
+    <div class="speaker-card">
+      <h3>Efan Mutembo</h3>
+      <div class="talk-title">"Transforming business with Claude Code"</div>
+    </div>
+    <div class="speaker-card">
+      <h3>Sandi Samantaray</h3>
+      <div class="talk-title">"Open source Claude Code plugins"</div>
+    </div>
+    <div class="speaker-card">
+      <h3>Shashwat Verma</h3>
+      <div class="talk-title">"Building Swiftly with Claude Code"</div>
     </div>
 
-    <div class="section">
-      <h3>Introducers (6)</h3>
-      <p>One per speaker. You get ~90 seconds and your own slide to talk about yourself and your work, then introduce the speaker.</p>
-    </div>
-
-    <div class="section">
-      <h3>Lightning Intros (5)</h3>
-      <p>90 sec each. You get a slide with your name, what you do, and a QR code (LinkedIn, website, or project link).</p>
-    </div>
-
-    <h2>Slides</h2>
-    <p>Every introduction slide displayed on screen includes:</p>
-    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); font-size: 15px;">
-      <li>Your name and what you do</li>
-      <li>QR code (LinkedIn, website, or project link)</li>
-      <li>A funny quote (we'll ask you for one)</li>
-      <li>Speakers: also includes talk title</li>
+    <h2>Lightning Intros</h2>
+    <ul class="people-list">
+      <li>Diana Deng</li>
+      <li>Edwin Trebels</li>
+      <li>Francesco Redente</li>
+      <li>Ibrahim Malik</li>
+      <li>Kir Zharov</li>
     </ul>
-    <p>That's <strong>17 intro slides</strong> total — 6 speakers + 6 introducers + 5 lightning intros.</p>
+
+    <h2>Community Introducers</h2>
+    <ul class="people-list">
+      <li>Ethan Horsfall</li>
+      <li>Felix Brockmeier</li>
+      <li>Khyara Ranaweera</li>
+      <li>Libby Swan</li>
+      <li>Shefali Bohra</li>
+      <li>Talha Sheikh</li>
+    </ul>
+
+    <h2>Mystery Segment</h2>
+    <div class="mystery">
+      <h3>Oscar the Robot</h3>
+      <p>Panny brought Oscar — a mini robot that's entirely self-contained. He changed the operating system just days before the event and was still working out the kinks, but was determined to present. Oscar won the hearts of the room.</p>
+    </div>
+
+    <h2>Community Awards</h2>
+    <p>Based on WhatsApp group activity — analysed by Claude, of course:</p>
+    <table>
+      <tbody>
+        <tr><td><strong>Most Charming</strong></td><td>Francisco</td></tr>
+        <tr><td><strong>Most Helpful</strong></td><td>Aditya Wagh</td></tr>
+        <tr><td><strong>Most Knowledgeable</strong></td><td>Aditya Wagh</td></tr>
+      </tbody>
+    </table>
 
     <footer>
       <a href="https://cccl.ai">cccl.ai</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a>
