@@ -270,6 +270,98 @@ header {
   margin: 40px 0;
 }
 
+/* --- Speaker Cards --- */
+
+.speaker-card {
+  margin-bottom: 16px;
+  padding: 24px;
+  background: var(--navy-mid);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.speaker-card h3 {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text);
+  margin: 0 0 4px;
+}
+
+.speaker-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.speaker-card h3 a:hover { color: var(--copper); }
+
+.speaker-card .talk-title {
+  font-size: 15px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.speaker-card .speaker-links {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.speaker-card .speaker-links a {
+  color: var(--copper);
+  text-decoration: none;
+}
+
+.speaker-card .speaker-links a:hover { text-decoration: underline; }
+
+/* --- People pills --- */
+
+.people-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.people-pills li {
+  padding: 6px 14px;
+  background: var(--navy-mid);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.people-pills li a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.people-pills li a:hover { color: var(--copper); }
+
+/* --- Mystery / highlight box --- */
+
+.highlight-box {
+  margin: 24px 0;
+  padding: 24px;
+  background: var(--navy-mid);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.highlight-box h3 {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--gold);
+  margin: 0 0 8px;
+}
+
 /* --- Footer --- */
 
 footer {
