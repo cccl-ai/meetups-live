@@ -12,6 +12,8 @@ meta:
     value: "Vonage, Central London"
 ---
 
+[Spotlight slides deck](https://docs.google.com/presentation/d/1NUkpt_3M26lJO4e0KaSuXvDaP2jY-W7L/edit) — intro slides for all 17 speakers.
+
 ## Talks
 
 <div class="speaker-card">
