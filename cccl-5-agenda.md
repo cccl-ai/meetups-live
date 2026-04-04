@@ -24,10 +24,10 @@ meta:
 
 | Time | Speaker | Topic | Introduced by |
 |------|---------|-------|---------------|
-| 18:25 | <a href="https://www.linkedin.com/in/cristina-iscenco/">Cristina Iscenco</a><br><a href="slides/cristina_iscenco" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Predictive AI tool for complex organisations | <a href="https://www.linkedin.com/in/ashishspande">Ashish Pande</a><br><a href="slides/ashish_pande" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
-| 18:37 | <a href="https://www.linkedin.com/in/ian-aizikovich/">Ian Aizikovich</a><br><a href="slides/ian_aizikovich" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Flarepoint — non-technical founder built an AI risk platform | <a href="https://www.linkedin.com/in/bilalattique">Bilal Attique</a><br><a href="slides/bilal_attique" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
-| 18:49 | <a href="https://www.linkedin.com/in/olly-kovalieva-40a23450/">Olly Kovalieva</a><br><a href="slides/olly_kovalieva" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I vibe-coded a conference about vibe coding | <a href="https://www.linkedin.com/in/katya-tarapovskaia/">Katya Tarapovskaia</a><br><a href="slides/katya_tarapovskaia" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
-| 19:01 | <a href="https://www.linkedin.com/in/aaditya-chintalapati/">Aaditya Chintalapati</a> | Journey from 0-code to building an MVP | <a href="https://www.linkedin.com/in/vikrammpawar/">Vikram</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 18:25 | <a href="https://www.linkedin.com/in/cristina-iscenco/">Cristina Iscenco</a><br><a href="cccl-5/slides/cristina_iscenco" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Predictive AI tool for complex organisations | <a href="https://www.linkedin.com/in/ashishspande">Ashish Pande</a><br><a href="cccl-5/slides/ashish_pande" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 18:37 | <a href="https://www.linkedin.com/in/ian-aizikovich/">Ian Aizikovich</a><br><a href="cccl-5/slides/ian_aizikovich" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Flarepoint — non-technical founder built an AI risk platform | <a href="https://www.linkedin.com/in/bilalattique">Bilal Attique</a><br><a href="cccl-5/slides/bilal_attique" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 18:49 | <a href="https://www.linkedin.com/in/olly-kovalieva-40a23450/">Olly Kovalieva</a><br><a href="cccl-5/slides/olly_kovalieva" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I vibe-coded a conference about vibe coding | <a href="https://www.linkedin.com/in/katya-tarapovskaia/">Katya Tarapovskaia</a><br><a href="cccl-5/slides/katya_tarapovskaia" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 19:01 | <a href="https://www.linkedin.com/in/aaditya-chintalapati/">Aaditya Chintalapati</a> | Journey from 0-code to building an MVP | <a href="https://www.linkedin.com/in/vikrammpawar/">Vikram</a><br><a href="cccl-5/slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
 ### Break
 
@@ -39,19 +39,19 @@ meta:
 
 | Time | Who | What |
 |------|-----|------|
-| 19:23 | <a href="https://www.linkedin.com/in/germain-morilhat/">Germain Morilhat</a><br><a href="slides/germain_morilhat" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Wikissey |
-| | <a href="https://www.linkedin.com/in/josediogomota/">Jose Mota</a><br><a href="slides/jose_mota" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Codeforge |
-| | <a href="https://www.linkedin.com/in/parivrudh-sharma/">Parivrudh Sharma</a><br><a href="slides/parivrudh_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | EU AI Act compliance |
-| | <a href="https://www.linkedin.com/in/wernerbatt/">Werner Bättenhaussen</a><br><a href="slides/werner_battenhaussen" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | PM's second brain |
-| | <a href="https://www.linkedin.com/in/bbutterworth/">Ben Butterworth</a><br><a href="slides/ben_butterworth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | duck-type.com |
+| 19:23 | <a href="https://www.linkedin.com/in/germain-morilhat/">Germain Morilhat</a><br><a href="cccl-5/slides/germain_morilhat" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Wikissey |
+| | <a href="https://www.linkedin.com/in/josediogomota/">Jose Mota</a><br><a href="cccl-5/slides/jose_mota" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Codeforge |
+| | <a href="https://www.linkedin.com/in/parivrudh-sharma/">Parivrudh Sharma</a><br><a href="cccl-5/slides/parivrudh_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | EU AI Act compliance |
+| | <a href="https://www.linkedin.com/in/wernerbatt/">Werner Bättenhaussen</a><br><a href="cccl-5/slides/werner_battenhaussen" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | PM's second brain |
+| | <a href="https://www.linkedin.com/in/bbutterworth/">Ben Butterworth</a><br><a href="cccl-5/slides/ben_butterworth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | duck-type.com |
 
 ### Second Half — 3 Talks
 
 | Time | Speaker | Topic | Introduced by |
 |------|---------|-------|---------------|
-| 19:33 | <a href="https://www.linkedin.com/in/chloe-hall/">Chloe Hall</a><br><a href="slides/chloe_hall" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lessons learned — when to use Claude Code vs manual coding | TBC |
-| 19:45 | <a href="https://www.linkedin.com/in/robcoward/">Rob Coward</a><br><a href="slides/rob_coward" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | End-to-end spec-driven delivery with Errand AI | TBC |
-| 19:57 | <a href="https://www.linkedin.com/in/vitashafinska/">Vita Shafinska</a><br><a href="slides/vita_shafinska" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How to create content using AI — faster, smarter, and at scale | TBC |
+| 19:33 | <a href="https://www.linkedin.com/in/chloe-hall/">Chloe Hall</a><br><a href="cccl-5/slides/chloe_hall" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lessons learned — when to use Claude Code vs manual coding | TBC |
+| 19:45 | <a href="https://www.linkedin.com/in/robcoward/">Rob Coward</a><br><a href="cccl-5/slides/rob_coward" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | End-to-end spec-driven delivery with Errand AI | TBC |
+| 19:57 | <a href="https://www.linkedin.com/in/vitashafinska/">Vita Shafinska</a><br><a href="cccl-5/slides/vita_shafinska" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How to create content using AI — faster, smarter, and at scale | TBC |
 
 ### Mystery
 
