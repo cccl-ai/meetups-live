@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(135deg, #1a1a2e 0%, #16162b 50%, #1e1e38 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; }
+  .slide::before { content: ''; position: absolute; top: -50%; right: -20%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(196,130,95,0.06) 0%, transparent 70%); border-radius: 50%; }
+  .slide::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(168,164,160,0.04) 0%, transparent 70%); border-radius: 50%; }
+  .content { position: relative; z-index: 1; padding: 60px 80px; height: 100%; display: flex; flex-direction: column; }
+  .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+  .event-tag { font-size: 13px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #a8a4a0; }
+  .event-tag span { color: #c4825f; }
+  .main { display: flex; justify-content: space-between; align-items: flex-start; flex: 1; }
+  .text-area { max-width: 750px; display: flex; flex-direction: column; justify-content: center; }
+  .name { font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; color: #e8e4dd; margin-bottom: 10px; line-height: 1.1; }
+  .subtitle { font-size: 20px; font-weight: 500; color: #c4825f; margin-bottom: 28px; }
+  .divider { width: 60px; height: 3px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.3)); margin-bottom: 28px; border-radius: 2px; }
+  .bio { font-size: 18px; font-weight: 300; color: #d4d0c8; line-height: 1.6; margin-bottom: 30px; max-width: 650px; }
+  .quote { font-size: 17px; font-style: italic; color: #88BBFF; line-height: 1.5; padding-left: 16px; border-left: 3px solid rgba(136,187,255,0.3); }
+  .qr-area { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-left: 40px; }
+  .qr-box { width: 180px; height: 180px; background: rgba(255,255,255,0.05); border: 1px solid rgba(196,130,95,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 12px; }
+  .qr-box img { width: 100%; height: 100%; }
+  .qr-label { margin-top: 10px; font-size: 12px; color: #a8a4a0; letter-spacing: 1px; text-transform: uppercase; }
+  .bottom-bar { display: flex; justify-content: space-between; align-items: flex-end; margin-top: auto; }
+  .cccl-logo { height: 56px; opacity: 0.85; }
+  .url { font-size: 13px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="content">
+    <div class="top-bar">
+      <div class="event-tag"><span>CCCL #5</span> — Claude Code for Everyone</div>
+      <div class="event-tag">7 April 2026</div>
+    </div>
+    <div class="main">
+      <div class="text-area">
+        <div class="name">Ian Aizikovich</div>
+        <div class="subtitle">Founder @ Flarepoint</div>
+        <div class="divider"></div>
+        <div class="bio">Non-technical solo founder who built an entire AI perception risk platform using Claude Code. flarepoint.io</div>
+        <div class="quote">“A story of how I replaced my social life with Claude”</div>
+      </div>
+      <div class="qr-area">
+        <div class="qr-box">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://flarepoint.io/&bgcolor=1A1A2E&color=E8E4DD&format=svg" alt="QR" />
+        </div>
+        <div class="qr-label">Flarepoint</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <img class="cccl-logo" src="https://cccl.ai/logos/cccl-badge-dark.svg" alt="CCCL" />
+      <div class="url">cccl.ai</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
