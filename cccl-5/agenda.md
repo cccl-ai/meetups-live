@@ -44,6 +44,7 @@ meta:
 | | <a href="https://www.linkedin.com/in/parivrudh-sharma/">Parivrudh Sharma</a><br><a href="slides/parivrudh_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | EU AI Act compliance |
 | | <a href="https://www.linkedin.com/in/wernerbatt/">Werner Bättenhaussen</a><br><a href="slides/werner_battenhaussen" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | PM's second brain |
 | | <a href="https://www.linkedin.com/in/bbutterworth/">Ben Butterworth</a><br><a href="slides/ben_butterworth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | duck-type.com |
+| | <a href="https://www.linkedin.com/in/kimfaura/">Kim Faura</a><br><a href="slides/kim_faura" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | 27 AI agents on a Mac Mini |
 
 ### Second Half — 3 Talks
 
