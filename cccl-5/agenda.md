@@ -50,9 +50,9 @@ meta:
 
 | Time | Speaker | Topic | Introduced by |
 |------|---------|-------|---------------|
-| 19:33 | <a href="https://www.linkedin.com/in/chloe-hall/">Chloe Hall</a><br><a href="slides/chloe_hall" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lessons learned — when to use Claude Code vs manual coding | TBC |
-| 19:45 | <a href="https://www.linkedin.com/in/robcoward/">Rob Coward</a><br><a href="slides/rob_coward" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | End-to-end spec-driven delivery with Errand AI | TBC |
-| 19:57 | <a href="https://www.linkedin.com/in/vitashafinska/">Vita Shafinska</a><br><a href="slides/vita_shafinska" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How to create content using AI — faster, smarter, and at scale | TBC |
+| 19:33 | <a href="https://www.linkedin.com/in/chloe-hall/">Chloe Hall</a><br><a href="slides/chloe_hall" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lessons learned — when to use Claude Code vs manual coding | <a href="https://www.linkedin.com/in/yewenjin/">Yewen Jin</a><br><a href="slides/yewen_jin" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 19:45 | <a href="https://www.linkedin.com/in/robcoward/">Rob Coward</a><br><a href="slides/rob_coward" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | End-to-end spec-driven delivery with Errand AI | <a href="https://www.linkedin.com/in/stepamitaki/">Stepan Mitaki</a><br><a href="slides/stepan_mitaki" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 19:57 | <a href="https://www.linkedin.com/in/vitashafinska/">Vita Shafinska</a><br><a href="slides/vita_shafinska" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How to create content using AI — faster, smarter, and at scale | <a href="https://www.linkedin.com/in/gabriel-hassan-2951a2a3/">Gabriel Hassan</a><br><a href="slides/gabriel_hassan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
 ### Mystery
 
@@ -69,3 +69,17 @@ meta:
 ---
 
 All speakers get a spotlight slide with their name, topic, and QR code. Each speaker is introduced by a community member (~90 seconds).
+
+### Reserves
+
+Community members who expressed interest in speaking — available for future events or if a slot opens up.
+
+| Name | Interest |
+|------|----------|
+| <a href="https://www.linkedin.com/in/mariyapattara/">Mariya Pattara</a> | GTM Lead at fintech startup, recently moved to Claude Code |
+| <a href="https://www.linkedin.com/in/darrenshelley/">Darren Shelley</a> | Multi-agent orchestration (20+ agents), autonomous Jira→MR pipeline, CC for non-engineers |
+| <a href="https://www.linkedin.com/in/kseniiasholina/">Kseniia Sh</a> | Building CRM system with Claude Code |
+| <a href="https://www.linkedin.com/in/deen-dayal-yadav/">Dayal Yadav</a> | How Claude is helping technical business owners |
+| <a href="https://www.linkedin.com/in/ismaelpapa/">Ismael Papa</a> | Built end-to-end demo environment using Claude |
+| <a href="https://www.linkedin.com/in/yingwang1113/">Ying Wang</a> | Learning journey — new to CC but active user |
+| <a href="https://www.linkedin.com/in/hazret-curaj-24658810a/">Hazret Curaj</a> | Non-technical: reverse-engineered competitor product, built WiFi sensors with CC |
