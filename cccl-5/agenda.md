@@ -80,6 +80,5 @@ Community members who expressed interest in speaking — available for future ev
 | <a href="https://www.linkedin.com/in/darrenshelley/">Darren Shelley</a> | Multi-agent orchestration (20+ agents), autonomous Jira→MR pipeline, CC for non-engineers |
 | <a href="https://www.linkedin.com/in/kseniiasholina/">Kseniia Sh</a> | Building CRM system with Claude Code |
 | <a href="https://www.linkedin.com/in/deen-dayal-yadav/">Dayal Yadav</a> | How Claude is helping technical business owners |
-| <a href="https://www.linkedin.com/in/ismaelpapa/">Ismael Papa</a> | Built end-to-end demo environment using Claude |
 | <a href="https://www.linkedin.com/in/yingwang1113/">Ying Wang</a> | Learning journey — new to CC but active user |
 | <a href="https://www.linkedin.com/in/hazret-curaj-24658810a/">Hazret Curaj</a> | Non-technical: reverse-engineered competitor product, built WiFi sensors with CC |
