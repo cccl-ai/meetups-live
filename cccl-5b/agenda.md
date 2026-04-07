@@ -2,7 +2,7 @@
 layout: default
 title: "CCCL #5B — Claude Code for Agentic Engineering"
 description: "Speakers from Figma, Google, CrowdStrike. 6 talks on AI-powered workflows."
-event_date: "Tuesday 8 April 2026"
+event_date: "Wednesday 8 April 2026"
 subtitle: "Co-hosted with Rob Hart (AI for Engineers London)"
 meta:
   - label: Doors
@@ -15,20 +15,49 @@ meta:
 
 ## Schedule
 
-| Time | |
-|------|-|
+### Welcome
+
+| Time | What |
+|------|------|
 | 17:30 | Doors open — food & drinks |
-| 18:15 | Welcome |
-| 18:25 | "Heap Today, Gone Tomorrow" — Jan Peer |
-| 18:37 | "Supercharge your Obsidian with Claude Code" — Ruslans Zavackis (CrowdStrike) |
-| 18:49 | "How Figma uses coder.com and autonomous agents" — Daniel Büchele (Figma) |
-| 19:01 | Break — networking & drinks |
-| 19:15 | "Claude Code for the entire stack from monorepo to multi-region cloud" — Valera Iatsko (Google) |
-| 19:27 | Talk 5 |
-| 19:39 | Talk 6 |
-| 19:51 | Mystery — revealed on the night |
+| 18:15 | Welcome — Vikram & Rob Hart |
+
+### First Half — 3 Talks
+
+| Time | Speaker | Topic | Introduced by |
+|------|---------|-------|---------------|
+| 18:25 | <a href="slides/jan_peer">Jan Peer</a><br><a href="slides/jan_peer" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Heap Today, Gone Tomorrow — debugging Node.js memory issues with Claude Code + Chrome DevTools MCP | TBC |
+| 18:37 | <a href="https://www.linkedin.com/in/ruslanzavacky/">Ruslan Zavacky</a><br><a href="slides/ruslans_zavackis" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Supercharge your Obsidian with Claude Code | TBC |
+| 18:49 | <a href="https://www.linkedin.com/in/danielbuechele/">Daniel Büchele</a><br><a href="slides/daniel_buchele" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How Figma uses coder.com and autonomous agents | TBC |
+
+### Break
+
+| Time | What |
+|------|------|
+| 19:01 | Networking & drinks |
+
+### Second Half — 3 Talks
+
+| Time | Speaker | Topic | Introduced by |
+|------|---------|-------|---------------|
+| 19:15 | <a href="slides/valera_iatsko">Valera Iatsko</a><br><a href="slides/valera_iatsko" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude Code for the entire stack — from monorepo to multi-region cloud | TBC |
+| 19:27 | <a href="https://www.linkedin.com/in/aris-manshor-9544644/">Aris Manshor</a><br><a href="slides/aris_manshor" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Context Engineering best practices | <a href="https://www.linkedin.com/in/fryderykbenigni/">Fryderyk Benigni</a><br><a href="slides/fryderyk_benigni" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 19:39 | <a href="https://www.linkedin.com/in/talha-sheikh-007/">Talha Sheikh</a><br><a href="slides/talha_sheikh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building Vector — the enforcement layer I wish Claude had | <a href="https://www.linkedin.com/in/fawaz-shah/">Fawaz Shah</a><br><a href="slides/fawaz_shah" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+
+### Mystery
+
+| Time | What |
+|------|------|
+| 19:51 | Revealed on the night |
+
+### Closing
+
+| Time | What |
+|------|------|
 | 20:20 | Networking & open mic lightning talks |
 | 21:00 | Pub |
+
+---
 
 All talks ~10 min. Each speaker introduced by a community member.
 
@@ -38,6 +67,8 @@ All talks ~10 min. Each speaker introduced by a community member.
 - **Ruslans Zavackis** (CrowdStrike) — Supercharging Obsidian with Claude Code
 - **Daniel Büchele** (Figma) — How Figma uses coder.com and autonomous agents
 - **Valera Iatsko** (Google) — Claude Code for the entire stack from monorepo to multi-region cloud
+- **Aris Manshor** (Kuro Data AI) — Context Engineering best practices
+- **Talha Sheikh** (Checkout) — Building Vector — the enforcement layer I wish Claude had
 
 ## About
 
