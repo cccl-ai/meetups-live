@@ -190,7 +190,7 @@ def add_ambassadors_slide(prs):
     # Three ambassadors
     ambassadors = [
         ("Vikram Pawar", "London", "vikram_ambassador.jpg"),
-        ("Olivier Negris", "London", "olivier_negris.jpeg"),
+        ("Olivier Legris", "London", "olivier_legris.jpeg"),
         ("Max Tatton-Brown", "London", "max_tatton_brown.jpeg"),
     ]
 
