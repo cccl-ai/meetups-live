@@ -27,6 +27,7 @@ SLIDE_ORDER = [
     "aris_manshor.html",
     "fawaz_shah.html",
     "talha_sheikh.html",
+    "rhys_cazenove.html",
     "thank_you.html",
 ]
 

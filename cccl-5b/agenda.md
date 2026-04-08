@@ -43,12 +43,13 @@ meta:
 | 19:15 | <a href="slides/valera_iatsko">Valera Iatsko</a><br><a href="slides/valera_iatsko" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude Code for the entire stack — from monorepo to multi-region cloud | TBC |
 | 19:27 | <a href="https://www.linkedin.com/in/aris-manshor-9544644/">Aris Manshor</a><br><a href="slides/aris_manshor" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Context Engineering best practices | <a href="https://www.linkedin.com/in/fryderykbenigni/">Fryderyk Benigni</a><br><a href="slides/fryderyk_benigni" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 | 19:39 | <a href="https://www.linkedin.com/in/talha-sheikh-007/">Talha Sheikh</a><br><a href="slides/talha_sheikh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building Vector — the enforcement layer I wish Claude had | <a href="https://www.linkedin.com/in/fawaz-shah/">Fawaz Shah</a><br><a href="slides/fawaz_shah" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 19:51 | <a href="https://www.linkedin.com/in/rhyscazenove/">Rhys Cazenove</a><br><a href="slides/rhys_cazenove" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Production-ready AI pipelines — guardrails, hooks, and ownership | TBC |
 
 ### Closing
 
 | Time | What |
 |------|------|
-| 19:51 | Networking & open mic lightning talks |
+| 20:03 | Networking & open mic lightning talks |
 | 20:50 | Closing — Vikram & Rob Hart |
 | 21:00 | Pub |
 
@@ -64,6 +65,7 @@ All talks ~10 min.
 - **Valera Iatsko** (Google) — Claude Code for the entire stack from monorepo to multi-region cloud
 - **Aris Manshor** (Kuro Data AI) — Context Engineering best practices
 - **Talha Sheikh** (Checkout) — Building Vector — the enforcement layer I wish Claude had
+- **Rhys Cazenove** (Natural History Museum) — Production-ready AI pipelines — guardrails, hooks, and ownership
 
 ## About
 
