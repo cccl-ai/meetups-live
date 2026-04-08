@@ -10,7 +10,7 @@ meta:
   - label: Talks
     value: "18:15 – 20:20"
   - label: Venue
-    value: "The Trampery Old Street"
+    value: "Old Street, London"
 ---
 
 ## Schedule
@@ -44,22 +44,17 @@ meta:
 | 19:27 | <a href="https://www.linkedin.com/in/aris-manshor-9544644/">Aris Manshor</a><br><a href="slides/aris_manshor" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Context Engineering best practices | <a href="https://www.linkedin.com/in/fryderykbenigni/">Fryderyk Benigni</a><br><a href="slides/fryderyk_benigni" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 | 19:39 | <a href="https://www.linkedin.com/in/talha-sheikh-007/">Talha Sheikh</a><br><a href="slides/talha_sheikh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building Vector — the enforcement layer I wish Claude had | <a href="https://www.linkedin.com/in/fawaz-shah/">Fawaz Shah</a><br><a href="slides/fawaz_shah" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
-### Mystery
-
-| Time | What |
-|------|------|
-| 19:51 | Revealed on the night |
-
 ### Closing
 
 | Time | What |
 |------|------|
-| 20:20 | Networking & open mic lightning talks |
+| 19:51 | Networking & open mic lightning talks |
+| 20:50 | Closing — Vikram & Rob Hart |
 | 21:00 | Pub |
 
 ---
 
-All talks ~10 min. Each speaker introduced by a community member.
+All talks ~10 min.
 
 ## Speakers
 
