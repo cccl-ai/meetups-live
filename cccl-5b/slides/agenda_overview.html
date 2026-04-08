@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(135deg, #1a1a2e 0%, #16162b 50%, #1e1e38 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; }
+  .slide::before { content: ''; position: absolute; top: -50%; right: -20%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(196,130,95,0.06) 0%, transparent 70%); border-radius: 50%; }
+  .content { position: relative; z-index: 1; padding: 36px 60px; height: 100%; display: flex; flex-direction: column; }
+  .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .event-tag { font-size: 13px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #a8a4a0; }
+  .event-tag span { color: #c4825f; }
+  .title { font-family: Georgia, 'Times New Roman', serif; font-size: 30px; font-weight: 700; color: #e8e4dd; margin-bottom: 18px; text-align: center; }
+  .columns { display: flex; gap: 40px; flex: 1; }
+  .col { flex: 1; display: flex; flex-direction: column; gap: 0; }
+  .section-label { font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #c4825f; margin-bottom: 6px; margin-top: 10px; }
+  .row { display: flex; align-items: baseline; padding: 4px 0; border-bottom: 1px solid rgba(168,164,160,0.08); }
+  .time { font-size: 13px; font-weight: 500; color: #a8a4a0; width: 42px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+  .speaker { font-size: 13px; font-weight: 500; color: #e8e4dd; }
+  .speaker .intro { font-size: 11px; color: #a8a4a0; font-weight: 400; }
+  .topic { font-size: 11px; color: #a8a4a0; font-weight: 300; margin-left: 4px; }
+  .break-row { padding: 6px 0; margin: 4px 0; }
+  .break-row .speaker { color: #c4825f; font-style: italic; font-weight: 400; }
+  .bottom-bar { display: flex; justify-content: space-between; align-items: flex-end; margin-top: auto; padding-top: 8px; }
+  .cccl-logo { height: 40px; opacity: 0.85; }
+  .url { font-size: 11px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="content">
+    <div class="top-bar">
+      <div class="event-tag"><span>CCCL #5B</span> — Claude Code for Agentic Engineering</div>
+      <div class="event-tag">8 April 2026</div>
+    </div>
+    <div class="title">Tonight's Agenda</div>
+    <div class="columns">
+      <div class="col">
+        <div class="section-label">Welcome</div>
+        <div class="row">
+          <div class="time">18:15</div>
+          <div class="speaker">Vikram & Rob Hart</div>
+        </div>
+
+        <div class="section-label">First Half — 3 Talks</div>
+        <div class="row">
+          <div class="time">18:25</div>
+          <div class="speaker">Jan Peer <span class="topic">— Heap Today, Gone Tomorrow</span></div>
+        </div>
+        <div class="row">
+          <div class="time">18:37</div>
+          <div class="speaker">Ruslans Zavackis <span class="topic">— Supercharge Obsidian</span></div>
+        </div>
+        <div class="row">
+          <div class="time">18:49</div>
+          <div class="speaker">Daniel Büchele <span class="topic">— Figma + coder.com</span></div>
+        </div>
+
+        <div class="section-label" style="margin-top: 14px;">Break</div>
+        <div class="row break-row">
+          <div class="time">19:01</div>
+          <div class="speaker">Networking & drinks</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 24px; gap: 10px;">
+          <div style="width: 180px; height: 180px; background: rgba(255,255,255,0.05); border: 1px solid rgba(196,130,95,0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; padding: 12px;">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://cccl-ai.github.io/meetups-live/cccl-5b/agenda&bgcolor=1A1A2E&color=E8E4DD&format=svg" style="width: 100%; height: 100%;" alt="QR" />
+          </div>
+          <div style="font-size: 12px; color: #a8a4a0; text-align: center; line-height: 1.4;">Full agenda<br><span style="color: #c4825f; font-size: 11px;">Scan to view</span></div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="section-label">Second Half — 3 Talks</div>
+        <div class="row">
+          <div class="time">19:15</div>
+          <div class="speaker">Valera Iatsko <span class="topic">— Full stack, multi-region</span></div>
+        </div>
+        <div class="row">
+          <div class="time">19:27</div>
+          <div class="speaker">Aris Manshor <span class="intro">← Fryderyk Benigni</span></div>
+        </div>
+        <div class="row">
+          <div class="time"></div>
+          <div class="speaker" style="font-size: 11px; color: #a8a4a0; font-weight: 300; padding-left: 0;">Context Engineering best practices</div>
+        </div>
+        <div class="row">
+          <div class="time">19:39</div>
+          <div class="speaker">Talha Sheikh <span class="intro">← Fawaz Shah</span></div>
+        </div>
+        <div class="row">
+          <div class="time"></div>
+          <div class="speaker" style="font-size: 11px; color: #a8a4a0; font-weight: 300; padding-left: 0;">Building Vector — enforcement layer</div>
+        </div>
+
+        <div class="section-label" style="margin-top: 14px;">Closing</div>
+        <div class="row">
+          <div class="time">19:51</div>
+          <div class="speaker">Networking & open mic lightning talks</div>
+        </div>
+        <div class="row">
+          <div class="time">20:50</div>
+          <div class="speaker">Closing — Vikram & Rob Hart</div>
+        </div>
+        <div class="row">
+          <div class="time">21:00</div>
+          <div class="speaker" style="color: #c4825f;">Pub</div>
+        </div>
+
+        <div style="margin-top: 30px; padding: 16px 20px; background: rgba(196,130,95,0.08); border: 1px solid rgba(196,130,95,0.15); border-radius: 10px;">
+          <div style="font-size: 12px; font-weight: 600; color: #c4825f; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase;">Co-hosted with</div>
+          <div style="font-size: 15px; color: #e8e4dd; font-weight: 500;">Rob Hart</div>
+          <div style="font-size: 12px; color: #a8a4a0;">AI for Engineers London</div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <img class="cccl-logo" src="https://cccl.ai/logos/cccl-badge-dark.svg" alt="CCCL" />
+      <div class="url">cccl.ai</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
