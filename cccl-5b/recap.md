@@ -7,14 +7,14 @@ meta:
   - label: Time
     value: "17:30 – 21:00"
   - label: Location
-    value: "The Trampery Old Street, London"
+    value: "Old Street, London"
   - label: Format
     value: "7 talks + community introducers"
   - label: Co-host
     value: "Rob Hart (AI for Engineers London)"
 ---
 
-[Agenda](agenda) &middot; [Spotlight slides deck](slides/) — intro slides for all speakers.
+[Agenda](agenda) &middot; [Spotlight slides deck](https://docs.google.com/presentation/d/1haDMOiG4q5U-ctdlB-yNJFzgsv2xZJq5/edit?slide=id.g38711a4089a_0_57#slide=id.g38711a4089a_0_57) — intro slides for all speakers.
 
 ## Talks
 
@@ -83,13 +83,25 @@ meta:
 
 ## Community Introducers
 
-<ul class="people-pills">
-<li><a href="https://github.com/AppsVortex/arness">Fryderyk Benigni</a> — Head of Engineering at Circuit Medical, open-sourced Arness</li>
-<li><a href="https://www.linkedin.com/in/fawaz-shah/">Fawaz Shah</a> — Senior Software Engineer at Bloomberg LP</li>
-</ul>
+<div class="speaker-card">
+<h3><a href="https://www.linkedin.com/in/fryderykbenigni/">Fryderyk Benigni</a></h3>
+<p>Head of Engineering at Circuit Medical. Open-sourced <a href="https://github.com/AppsVortex/arness">Arness</a> — a full Claude Code modular plugin stack.</p>
+<div class="speaker-links">
+<a href="https://www.linkedin.com/in/fryderykbenigni/">LinkedIn</a>
+<a href="https://github.com/AppsVortex/arness">Arness</a>
+</div>
+</div>
+
+<div class="speaker-card">
+<h3><a href="https://www.linkedin.com/in/fawaz-shah/">Fawaz Shah</a></h3>
+<p>Senior Software Engineer at Bloomberg LP.</p>
+<div class="speaker-links">
+<a href="https://www.linkedin.com/in/fawaz-shah/">LinkedIn</a>
+</div>
+</div>
 
 ## About
 
 For software engineers using Claude Code in production — beyond basic code generation. Seven 10-minute talks on AI-powered workflows across the SDLC.
 
-Organised by [Vikram Pawar](https://www.linkedin.com/in/vikrammpawar/) (Claude Community Ambassador), co-hosted with Rob Hart ([AI for Engineers London](https://www.meetup.com/ai-for-engineers-london/)).
+Organised by [Vikram Pawar](https://www.linkedin.com/in/vikrammpawar/) (Claude Community Ambassador), co-hosted with [Rob Hart](https://www.linkedin.com/in/robhart/) ([AI for Engineers London](https://www.meetup.com/ai-for-engineers-london/)).
