@@ -50,15 +50,16 @@ meta:
 <p>From zero code to a 10-agent M&A due diligence platform — built entirely in Claude Code.</p>
 <div class="speaker-links">
 <a href="https://www.linkedin.com/in/aadityachintalapati/">LinkedIn</a>
+<a href="https://www.aigis-analytics.com">Aigis</a>
 </div>
 </div>
 
 <div class="speaker-card">
-<h3><a href="https://www.linkedin.com/in/chloe-hall/">Chloe Hall</a></h3>
+<h3><a href="https://www.linkedin.com/in/chloe-hall-phd/">Chloe Hall</a></h3>
 <div class="talk-title">"Lessons learned — when to use Claude Code vs manual coding"</div>
 <p>Former neuroscientist who learned to code against her will. Moved over to the startup world 1.5 years ago.</p>
 <div class="speaker-links">
-<a href="https://www.linkedin.com/in/chloe-hall/">LinkedIn</a>
+<a href="https://www.linkedin.com/in/chloe-hall-phd/">LinkedIn</a>
 <a href="https://chloemhall.vercel.app/">Website</a>
 </div>
 </div>
