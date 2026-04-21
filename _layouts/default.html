@@ -52,7 +52,11 @@
     </div>
 
     <footer>
-      <a href="https://cccl.ai/whatsapp">WhatsApp</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a> · <a href="https://cccl.ai">cccl.ai</a>
+      {% if page.footer_links %}
+        {% for link in page.footer_links %}{% unless forloop.first %} · {% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+      {% else %}
+        <a href="https://cccl.ai/whatsapp">WhatsApp</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a> · <a href="https://cccl.ai">cccl.ai</a>
+      {% endif %}
     </footer>
   </div>
 </body>
