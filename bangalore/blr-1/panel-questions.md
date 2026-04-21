@@ -2,7 +2,7 @@
 layout: default
 title: "CCCL Bangalore #1 — Panel Questions"
 description: "Questions submitted by the community ahead of the panel discussion."
-event_date: "21 April 2026"
+event_date: "25 April 2026"
 meta:
   - label: Questions
     value: "23 submitted"
