@@ -55,7 +55,7 @@ meta:
 
 | Time | Speaker | Topic |
 |------|---------|-------|
-| 12:16 | <a href="https://linkedin.com/in/mishraharsh-">Harsh Mishra</a><br><a href="slides/harsh_mishra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | A non-tech founder building with Claude |
+| 12:16 | <a href="https://linkedin.com/in/harshactually">Harsh Mishra</a><br><a href="slides/harsh_mishra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | A non-tech founder building with Claude |
 | 12:24 | <a href="https://linkedin.com/in/mrigang-singh-73911217b">Mrigang Singh</a><br><a href="slides/mrigang_singh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building an astrology app with Claude Co-work |
 | 12:32 | <a href="https://linkedin.com/in/naveen-manwani-65491678">Naveen Manwani</a><br><a href="slides/naveen_manwani" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claudi — a voice-enabled Claude assistant |
 
