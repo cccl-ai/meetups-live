@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(150deg, #1a1a2e 0%, #16162b 60%, #1c1c30 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; }
+  .watermark { position: absolute; right: -20px; bottom: 50px; font-family: Georgia, serif; font-weight: 700; font-size: 280px; line-height: 1; pointer-events: none; z-index: 0; user-select: none; }
+  .watermark .cc { color: rgba(196,130,95,0.05); }
+  .watermark .cl { color: rgba(232,228,221,0.04); }
+  .content { position: relative; z-index: 1; padding: 36px 80px 0; display: flex; flex-direction: column; flex: 1; }
+  .top-row { display: flex; justify-content: space-between; align-items: flex-start; }
+  .cccl-display { display: flex; flex-direction: column; }
+  .cccl-word-lg { font-family: Georgia, serif; font-weight: 700; font-size: 52px; line-height: 1; }
+  .cccl-word-lg .cc { color: #c4825f; }
+  .cccl-word-lg .cl { color: #e8e4dd; }
+  .cccl-underline { width: 100%; height: 2px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.1)); margin-top: 6px; border-radius: 1px; }
+  .cccl-sub { font-size: 11px; letter-spacing: 2.5px; color: #a8a4a0; text-transform: uppercase; margin-top: 8px; }
+  .photo-qr { display: flex; align-items: center; gap: 20px; margin-top: -8px; flex-shrink: 0; }
+  .speaker-photo { width: 280px; height: 280px; border-radius: 50%; object-fit: cover; object-position: center top; border: 4px solid rgba(196,130,95,0.45); box-shadow: 0 0 0 10px rgba(196,130,95,0.07), 0 20px 60px rgba(0,0,0,0.4); }
+  .qr-wrap { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .qr-box { width: 110px; height: 110px; background: rgba(255,255,255,0.05); border: 1px solid rgba(196,130,95,0.25); border-radius: 10px; display: flex; align-items: center; justify-content: center; padding: 8px; }
+  .qr-box img { width: 100%; height: 100%; }
+  .qr-label { font-size: 10px; color: #a8a4a0; letter-spacing: 1.5px; text-transform: uppercase; }
+  .body { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-right: 450px; padding-top: 4px; }
+  .name { font-family: Georgia, serif; font-size: 52px; font-weight: 700; color: #e8e4dd; margin-bottom: 6px; line-height: 1.1; }
+  .subtitle { font-size: 19px; font-weight: 500; color: #c4825f; margin-bottom: 14px; }
+  .divider { width: 50px; height: 3px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.2)); margin-bottom: 14px; border-radius: 2px; }
+  .bio { font-size: 17px; font-weight: 300; color: #d4d0c8; line-height: 1.65; margin-bottom: 14px; }
+  .quote { font-size: 16px; font-style: italic; color: #88BBFF; line-height: 1.5; padding-left: 14px; border-left: 3px solid rgba(136,187,255,0.3); }
+  .footer-band { background: #13131f; border-top: 1px solid rgba(196,130,95,0.2); height: 60px; display: flex; align-items: center; padding: 0 80px; justify-content: space-between; flex-shrink: 0; }
+  .footer-left { display: flex; align-items: center; gap: 14px; }
+  .cccl-logo { height: 38px; opacity: 0.85; }
+  .event-label { font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: #a8a4a0; }
+  .event-label span { color: #c4825f; }
+  .url { font-size: 12px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="watermark"><span class="cc">CC</span><span class="cl">CL</span></div>
+  <div class="content">
+    <div class="top-row">
+      <div class="cccl-display">
+        <div class="cccl-word-lg"><span class="cc">CC</span><span class="cl">CL</span></div>
+        <div class="cccl-underline"></div>
+        <div class="cccl-sub">Claude Code Meetups · In Your City</div>
+      </div>
+      <div class="photo-qr">
+        <img class="speaker-photo" src="photos/sathish_ks.jpeg" alt="Sathish KS" />
+        <div class="qr-wrap">
+          <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/sathishks/&bgcolor=1A1A2E&color=E8E4DD&format=svg" alt="QR" /></div>
+          <div class="qr-label">LinkedIn</div>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="name">Sathish KS</div>
+      <div class="subtitle">CEO · Zeotap</div>
+      <div class="divider"></div>
+      <div class="bio">22+ year engineering leader. CEO at Zeotap. Previously led Data Platform and Fraud Prevention at Ola. Earlier Technical Architect on Cisco IoT solutions and part of the WebLogic Server development team.</div>
+    </div>
+  </div>
+  <div class="footer-band">
+    <div class="footer-left">
+      <img class="cccl-logo" src="https://cccl.ai/logos/cccl-badge-dark.svg" alt="CCCL" />
+      <div class="event-label"><span>CCCL BLR #1</span> — Claude Code for Everyone</div>
+    </div>
+    <div class="url">25 April 2026 · Bangalore &nbsp;·&nbsp; cccl.ai</div>
+  </div>
+</div>
+</body>
+</html>
