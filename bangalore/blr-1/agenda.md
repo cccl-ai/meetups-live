@@ -37,7 +37,7 @@ meta:
 | 10:55 | <a href="https://linkedin.com/in/harshactually">Harshvardhan Mishra</a><br><a href="slides/harsh_mishra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | A non-tech founder building with Claude |
 | 11:01 | <a href="https://linkedin.com/in/mrigang-singh-73911217b">Mrigang Singh</a><br><a href="slides/mrigang_singh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building an astrology app with Claude Co-work |
 | 11:07 | <a href="https://linkedin.com/in/naveen-manwani-65491678">Naveen Manwani</a><br><a href="slides/naveen_manwani" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claudi — a voice-enabled Claude assistant |
-| 11:13 | <a href="https://www.linkedin.com/in/vashishta/">Vashishta</a> | Using Claude Code cost effectively alongside other options |
+| 11:13 | <a href="https://www.linkedin.com/in/vashishta/">Vashishta</a><br><a href="slides/vashista" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Using Claude Code cost effectively alongside other options |
 
 ### Talks — 10 min
 
