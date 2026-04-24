@@ -20,44 +20,51 @@ meta:
 |------|------|
 | 10:00 | Doors open — networking |
 | 10:30 | Welcome — Vikram |
-
-### Panel — Claude for Everyone
-
-| Time | Panelist | |
-|------|---------|-|
-| 10:40 | <a href="https://linkedin.com/in/shashwatghosh-ai-b2b-gtm-fractionalcmo">Shashwat Ghosh</a> | <a href="slides/shashwat_ghosh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
-| | <a href="https://linkedin.com/in/rasagy">Rasagy Sharma</a> | <a href="slides/rasagy_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
-| | <a href="https://linkedin.com/in/balaganeshs">Bala Ganesh S</a> | <a href="slides/bala_ganesh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| 10:38 | Anthropic welcome |
 
 ### Lightning Talks — 2 min
 
 | Time | Speaker | Topic |
 |------|---------|-------|
-| 11:10 | <a href="https://linkedin.com/in/prithvi-hegde-24b3b430b">Prithvi Hegde</a><br><a href="slides/prithvi_hegde" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building real products as a CS student |
-| 11:13 | <a href="https://linkedin.com/in/rallapalli-phaneendra-48a517294">Rallapalli Phaneendra</a><br><a href="slides/rallapalli_phaneendra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI placement prep for Tier 1–3 college students |
-| 11:16 | <a href="https://linkedin.com/in/sameer-narasimha">Sameer KumarNarasimha</a><br><a href="slides/sameer_kumarnarasimha" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building endpoint security with Claude Code |
-
-### Break
-
-| Time | What |
-|------|------|
-| 11:20 | Networking & refreshments |
-
-### Talks — 10 min
-
-| Time | Speaker | Topic |
-|------|---------|-------|
-| 11:40 | <a href="https://linkedin.com/in/adityat1702">Aditya Trivedi</a><br><a href="slides/aditya_trivedi" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Prompt OS — a prompt optimiser built with Claude Code |
-| 11:52 | <a href="https://linkedin.com/in/anuttamgrandhi">Anuttam Grandhi</a><br><a href="slides/anuttam_grandhi" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building a GPS alarm app with Claude Code |
-| 12:04 | <a href="https://linkedin.com/in/sudharsan-ananth">Sudharsan Ananth</a><br><a href="slides/sudharsan_ananth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I built a successful business with Claude |
+| 10:45 | <a href="https://linkedin.com/in/prithvi-hegde-24b3b430b">Prithvi Hegde</a><br><a href="slides/prithvi_hegde" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building real products as a CS student |
+| 10:48 | <a href="https://linkedin.com/in/rallapalli-phaneendra-48a517294">Rallapalli Phaneendra</a><br><a href="slides/rallapalli_phaneendra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI placement prep for Tier 1–3 college students |
+| 10:51 | <a href="https://linkedin.com/in/sameer-narasimha">Sameer KumarNarasimha</a><br><a href="slides/sameer_kumarnarasimha" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building endpoint security with Claude Code |
 
 ### Short Talks — 5 min
 
 | Time | Speaker | Topic |
 |------|---------|-------|
-| 12:16 | <a href="https://linkedin.com/in/harshactually">Harshvardhan Mishra</a><br><a href="slides/harsh_mishra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | A non-tech founder building with Claude |
-| 12:24 | <a href="https://linkedin.com/in/mrigang-singh-73911217b">Mrigang Singh</a><br><a href="slides/mrigang_singh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building an astrology app with Claude Co-work |
-| 12:32 | <a href="https://linkedin.com/in/naveen-manwani-65491678">Naveen Manwani</a><br><a href="slides/naveen_manwani" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claudi — a voice-enabled Claude assistant |
+| 10:55 | <a href="https://linkedin.com/in/harshactually">Harshvardhan Mishra</a><br><a href="slides/harsh_mishra" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | A non-tech founder building with Claude |
+| 11:01 | <a href="https://linkedin.com/in/mrigang-singh-73911217b">Mrigang Singh</a><br><a href="slides/mrigang_singh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building an astrology app with Claude Co-work |
+| 11:07 | <a href="https://linkedin.com/in/naveen-manwani-65491678">Naveen Manwani</a><br><a href="slides/naveen_manwani" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claudi — a voice-enabled Claude assistant |
+| 11:13 | <a href="https://www.linkedin.com/in/vashishta/">Vashista</a> | TBC |
+
+### Talks — 10 min
+
+| Time | Speaker | Topic |
+|------|---------|-------|
+| 11:20 | <a href="https://linkedin.com/in/adityat1702">Aditya Trivedi</a><br><a href="slides/aditya_trivedi" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Prompt OS — a prompt optimiser built with Claude Code |
+| 11:32 | <a href="https://linkedin.com/in/anuttamgrandhi">Anuttam Grandhi</a><br><a href="slides/anuttam_grandhi" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building a GPS alarm app with Claude Code |
+
+### Break
+
+| Time | What |
+|------|------|
+| 11:45 | Networking & refreshments |
+
+### Talk — 10 min
+
+| Time | Speaker | Topic |
+|------|---------|-------|
+| 12:00 | <a href="https://linkedin.com/in/sudharsan-ananth">Sudharsan Ananth</a><br><a href="slides/sudharsan_ananth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I built a successful business with Claude |
+
+### Panel — Claude for Everyone
+
+| Time | Panelist | |
+|------|---------|-|
+| 12:12 | <a href="https://linkedin.com/in/shashwatghosh-ai-b2b-gtm-fractionalcmo">Shashwat Ghosh</a> | <a href="slides/shashwat_ghosh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| | <a href="https://linkedin.com/in/rasagy">Rasagy Sharma</a> | <a href="slides/rasagy_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| | <a href="https://linkedin.com/in/balaganeshs">Bala Ganesh S</a> | <a href="slides/bala_ganesh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
 ### Closing
 
@@ -77,12 +84,13 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min.
 - **Prithvi Hegde** — CS student, multi-project builder
 - **Rallapalli Phaneendra** — AI placement prep platform for Tier 1–3 colleges
 - **Sameer KumarNarasimha** (Logim) — Endpoint security with Claude Code
-- **Aditya Trivedi** (Synopsys) — Prompt OS, a prompt optimiser for LLMs
-- **Anuttam Grandhi** (Flipkart) — GPS alarm app built with Claude Code
-- **Sudharsan Ananth** (Sparkable) — How I built a successful business with Claude
 - **Harshvardhan Mishra** (Sales101) — A non-tech founder building with Claude
 - **Mrigang Singh** — Building an astrology app with Claude Co-work
 - **Naveen Manwani** — Claudi, a voice-enabled Claude assistant
+- **Vashista** — TBC
+- **Aditya Trivedi** (Synopsys) — Prompt OS, a prompt optimiser for LLMs
+- **Anuttam Grandhi** (Flipkart) — GPS alarm app built with Claude Code
+- **Sudharsan Ananth** (Sparkable) — How I built a successful business with Claude
 
 ## About
 
