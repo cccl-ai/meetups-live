@@ -65,6 +65,7 @@ meta:
 | 12:12 | <a href="https://linkedin.com/in/shashwatghosh-ai-b2b-gtm-fractionalcmo">Shashwat Ghosh</a> | <a href="slides/shashwat_ghosh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 | | <a href="https://linkedin.com/in/rasagy">Rasagy Sharma</a> | <a href="slides/rasagy_sharma" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 | | <a href="https://linkedin.com/in/balaganeshs">Bala Ganesh S</a> | <a href="slides/bala_ganesh" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
+| | <a href="https://www.linkedin.com/in/sathishks/">Sathish KS</a> | <a href="slides/sathish_ks" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
 ### Closing
 
@@ -81,6 +82,7 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min.
 - **Shashwat Ghosh** — Claude skills & GTM workflows
 - **Rasagy Sharma** (Capital One India) — Teaching creative coding for designers with Claude
 - **Bala Ganesh S** (Flipkart) — Turning developer skeptics into Claude advocates
+- **Sathish KS** (Zeotap) — Panelist
 - **Prithvi Hegde** — CS student, multi-project builder
 - **Rallapalli Phaneendra** — AI placement prep platform for Tier 1–3 colleges
 - **Sameer KumarNarasimha** (Logim) — Endpoint security with Claude Code
