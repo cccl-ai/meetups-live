@@ -77,30 +77,30 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 
 ### 10-minute talks
 
-- **Joseph Christopher** (Decision Minds) — Host & Director
-- **Sudharsan Ananth** (Sparkable) — How I built a successful business with Claude
-- **Krishna Prathab R V** (Hopsticks) — Founder lens, Google Appscale alum
-- **Archana Dhinakaran** — AI-First Fractional GC, governance by design
-- **Sankaranand Balaradjou** (Willdoo Education) — EdTech, futuristic learning
-- **Ramanan Prabakaran** (AAHA Solutions) — AI-driven testing, MCP integration
+- **[Joseph Christopher](https://linkedin.com/in/joseph-christopher-6a635721)** (Decision Minds) — Host & Director
+- **[Sudharsan Ananth](https://linkedin.com/in/sudharsan-ananth)** (Sparkable) — How I built a successful business with Claude
+- **[Krishna Prathab R V](https://linkedin.com/in/prathab)** (Hopsticks) — Founder lens, Google Appscale alum
+- **[Archana Dhinakaran](https://linkedin.com/in/archanadhinakaran)** — AI-First Fractional GC, governance by design
+- **[Sankaranand Balaradjou](https://linkedin.com/in/sankaranand)** (Willdoo Education) — EdTech, futuristic learning
+- **[Ramanan Prabakaran](https://linkedin.com/in/ramanan-prabakaran)** (AAHA Solutions) — AI-driven testing, MCP integration
 
 ### 5-minute talks
 
-- **Janani S** (Decision Minds) — Data engineering intern, AI tools practitioner
-- **Lingeswaran Kathiresan** (Integra) — HR Business Partner, analytics + automation
-- **Nicolas Martin** (Fractal-Apps) — Full-stack Data Scientist, airoomstyles.com
-- **Monish Chander** (Twilight IT Solutions) — Junior Data Engineer
-- **Partha Sarathy S** (Decision Minds) — Databricks Certified DE Associate
-- **Harini Krishnamoorthy** (SMVEC) — CS student, 3D portfolio builder
+- **[Janani S](https://linkedin.com/in/janani-s-8663b2293)** (Decision Minds) — Data engineering intern, AI tools practitioner
+- **[Lingeswaran Kathiresan](https://linkedin.com/in/lingeswaran-kathiresan-hr)** (Integra) — HR Business Partner, analytics + automation
+- **[Nicolas Martin](https://www.linkedin.com/in/nicolas-martin-a2668122/)** (Fractal-Apps) — Full-stack Data Scientist, airoomstyles.com
+- **[Monish Chander](https://linkedin.com/in/monishchander)** (Twilight IT Solutions) — Junior Data Engineer
+- **[Partha Sarathy S](https://linkedin.com/in/partha-sarathy-s)** (Decision Minds) — Databricks Certified DE Associate
+- **[Harini Krishnamoorthy](https://linkedin.com/in/harini-krishnamoorthy-2a4088356)** (SMVEC) — CS student, 3D portfolio builder
 
 ### 2-minute lightning talks
 
-- **Madhavan B** (Decision Minds) — Data engineer intern
-- **Jijoe Eswanth** (TCS) — Program Manager
-- **Ashoke Das** (Logitech) — Lead Visual Designer
-- **Sandhiya H** *(reserve)* (Decision Minds) — Final-year CS / DE intern
-- **Gowtham M** *(reserve)* (Decision Minds) — DE intern
-- **Iyyanar S** *(reserve)* (AAHA Solutions) — Front-End Developer
+- **[Madhavan B](https://linkedin.com/in/madhavan3)** (Decision Minds) — Data engineer intern
+- **[Jijoe Eswanth](https://linkedin.com/in/jijoe-eswanth)** (TCS) — Program Manager
+- **[Ashoke Das](https://linkedin.com/in/ashoke-das-41b4809)** (Logitech) — Lead Visual Designer
+- **[Sandhiya H](https://linkedin.com/in/sandhiya-h-5b6967343)** *(reserve)* (Decision Minds) — Final-year CS / DE intern
+- **[Gowtham M](https://linkedin.com/in/GowthamM)** *(reserve)* (Decision Minds) — DE intern
+- **[Iyyanar S](https://linkedin.com/in/iyyanar-s-173293251)** *(reserve)* (AAHA Solutions) — Front-End Developer
 
 ## About
 
