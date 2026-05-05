@@ -39,9 +39,9 @@ Vikram introduces each block and each 10-minute speaker.
 |------|----------|---------|-------|
 | 18:25 | 10 min | <a href="https://linkedin.com/in/joseph-christopher-6a635721">Joseph Christopher</a><br><a href="slides/joseph_christopher" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Host opener — How Claude and AI are transforming Enterprise Data |
 | | | **Lightning round** | |
-| 18:35 | 2 min | <a href="https://linkedin.com/in/madhavan3">Madhavan B</a> | Lightning talk |
-| 18:37 | 2 min | <a href="https://linkedin.com/in/jijoe-eswanth">Jijoe Eswanth</a> | Lightning talk |
-| 18:39 | 2 min | <a href="https://linkedin.com/in/sandhiya-h-5b6967343">Sandhiya H</a> *(reserve)* | Lightning talk |
+| 18:35 | 2 min | <a href="https://linkedin.com/in/madhavan3">Madhavan B</a><br><a href="slides/madhavan_b" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lightning talk |
+| 18:37 | 2 min | <a href="https://linkedin.com/in/jijoe-eswanth">Jijoe Eswanth</a><br><a href="slides/jijoe_eswanth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lightning talk |
+| 18:39 | 2 min | <a href="https://linkedin.com/in/sandhiya-h-5b6967343">Sandhiya H</a><br><a href="slides/sandhiya_h" style="font-size:0.75em; color:#a8a4a0;">view slide</a> *(reserve)* | Lightning talk |
 | | | **Short talks** | |
 | 18:41 | 5 min | <a href="https://linkedin.com/in/janani-s-8663b2293">Janani S</a><br><a href="slides/janani_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Built a chatbot with the Claude API — now exploring Claude Code |
 | 18:46 | 5 min | <a href="https://linkedin.com/in/lingeswaran-kathiresan-hr">Lingeswaran Kathiresan</a><br><a href="slides/lingeswaran_kathiresan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude + Power BI for HR analytics |
@@ -62,9 +62,9 @@ Vikram introduces each block and each 10-minute speaker.
 |------|----------|---------|-------|
 | 19:31 | 10 min | <a href="https://linkedin.com/in/prathab">Krishna Prathab</a><br><a href="slides/krishna_prathab" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI in Financial Markets — From Signals to Autonomous Decisions |
 | | | **Lightning round** | |
-| 19:41 | 2 min | <a href="https://linkedin.com/in/ashoke-das-41b4809">Ashoke Das</a> | Lightning talk |
-| 19:43 | 2 min | <a href="https://linkedin.com/in/GowthamM">Gowtham M</a> *(reserve)* | Lightning talk |
-| 19:45 | 2 min | <a href="https://linkedin.com/in/iyyanar-s-173293251">Iyyanar S</a> *(reserve)* | Lightning talk |
+| 19:41 | 2 min | <a href="https://linkedin.com/in/ashoke-das-41b4809">Ashoke Das</a><br><a href="slides/ashoke_das" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lightning talk |
+| 19:43 | 2 min | <a href="https://linkedin.com/in/GowthamM">Gowtham M</a><br><a href="slides/gowtham_m" style="font-size:0.75em; color:#a8a4a0;">view slide</a> *(reserve)* | Lightning talk |
+| 19:45 | 2 min | <a href="https://linkedin.com/in/iyyanar-s-173293251">Iyyanar S</a><br><a href="slides/iyyanar_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> *(reserve)* | Lightning talk |
 | | | **Short talks** | |
 | 19:47 | 5 min | <a href="https://linkedin.com/in/monishchander">Monish Chander</a><br><a href="slides/monish_chander" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Junior DE building scalable backends with Claude |
 | 19:52 | 5 min | <a href="https://linkedin.com/in/partha-sarathy-s">Partha Sarathy S</a><br><a href="slides/partha_sarathy_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I use Claude in my daily development workflow |

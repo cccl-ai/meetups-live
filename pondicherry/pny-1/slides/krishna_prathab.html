@@ -7,6 +7,10 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
   .slide { width: 1280px; height: 720px; background: linear-gradient(150deg, #1a1a2e 0%, #16162b 60%, #1c1c30 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; }
+  .slide::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 6px; z-index: 2; }
+  .slide.dur-10::before { background: #c4825f; }
+  .slide.dur-5::before  { background: #88BBFF; }
+  .slide.dur-2::before  { background: #a8a4a0; }
   .watermark { position: absolute; right: -20px; bottom: 50px; font-family: Georgia, serif; font-weight: 700; font-size: 280px; line-height: 1; pointer-events: none; z-index: 0; user-select: none; }
   .watermark .cc { color: rgba(196,130,95,0.05); }
   .watermark .cl { color: rgba(232,228,221,0.04); }
@@ -39,7 +43,7 @@
 </style>
 </head>
 <body>
-<div class="slide">
+<div class="slide dur-10">
   <div class="watermark"><span class="cc">CC</span><span class="cl">CL</span></div>
   <div class="content">
     <div class="top-row">
