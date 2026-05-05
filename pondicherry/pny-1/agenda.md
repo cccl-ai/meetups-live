@@ -36,10 +36,10 @@ Vikram introduces each block and each 10-minute speaker.
 | | | **Short talks** | |
 | 18:41 | 5 min | <a href="https://linkedin.com/in/janani-s-8663b2293">Janani S</a><br><a href="slides/janani_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Built a chatbot with the Claude API — now exploring Claude Code |
 | 18:46 | 5 min | <a href="https://linkedin.com/in/lingeswaran-kathiresan-hr">Lingeswaran Kathiresan</a><br><a href="slides/lingeswaran_kathiresan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude + Power BI for HR analytics |
-| 18:51 | 5 min | <a href="https://www.linkedin.com/in/nicolas-martin-a2668122/">Nicolas Martin</a><br><a href="slides/nicolas_martin" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude Code best practices — live demo |
+| 18:51 | 5 min | <a href="https://www.linkedin.com/in/nicolas-martin-a2668122/">Nicolas Martin</a><br><a href="slides/nicolas_martin" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Efficient and timeless Master Prompt Generation |
 | | | **Depth** | |
 | 18:56 | 10 min | <a href="https://linkedin.com/in/archanadhinakaran">Archana Dhinakaran</a><br><a href="slides/archana_dhinakaran" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Governance shouldn't be a cleanup operation |
-| 19:06 | 10 min | <a href="https://linkedin.com/in/sudharsan-ananth">Sudharsan Ananth</a><br><a href="slides/sudharsan_ananth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I built a successful business with Claude |
+| 19:06 | 10 min | <a href="https://linkedin.com/in/ramanan-prabakaran">Ramanan Prabakaran</a><br><a href="slides/ramanan_prabakaran" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI-driven QA — Jessie chatbot, MCP integration |
 
 ### Break
 
@@ -63,7 +63,7 @@ Vikram introduces each block and each 10-minute speaker.
 | 20:02 | 5 min | <a href="https://linkedin.com/in/geraldine-a-6030b62aa">Geraldine A</a><br><a href="slides/geraldine_a" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building Upskillo — AI career training that evaluates progress |
 | 20:07 | 5 min | <a href="https://linkedin.com/in/harini-krishnamoorthy-2a4088356">Harini Krishnamoorthy</a><br><a href="slides/harini_krishnamoorthy" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Student building a 3D portfolio with Next.js + Three.js |
 | | | **Depth** | |
-| 20:12 | 10 min | <a href="https://linkedin.com/in/ramanan-prabakaran">Ramanan Prabakaran</a><br><a href="slides/ramanan_prabakaran" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI-driven QA — Jessie chatbot, MCP integration |
+| 20:12 | 10 min | <a href="https://linkedin.com/in/sudharsan-ananth">Sudharsan Ananth</a><br><a href="slides/sudharsan_ananth" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I built a successful business with Claude |
 
 ### Closing
 
