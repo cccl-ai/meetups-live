@@ -27,13 +27,13 @@ Vikram introduces each block and each 10-minute speaker.
 
 | Time | Duration | Speaker | Topic |
 |------|----------|---------|-------|
-| 18:10 | 10 min | <a href="https://linkedin.com/in/joseph-christopher-6a635721">Joseph Christopher</a><br><a href="slides/joseph_christopher" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Host opener — Director, Decision Minds |
+| 18:10 | 10 min | <a href="https://linkedin.com/in/joseph-christopher-6a635721">Joseph Christopher</a><br><a href="slides/joseph_christopher" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Host opener — How Claude and AI are transforming Enterprise Data |
 | | | **Lightning round** | |
 | 18:20 | 2 min | <a href="https://linkedin.com/in/madhavan3">Madhavan B</a> | Lightning talk |
 | 18:22 | 2 min | <a href="https://linkedin.com/in/jijoe-eswanth">Jijoe Eswanth</a> | Lightning talk |
 | 18:24 | 2 min | <a href="https://linkedin.com/in/sandhiya-h-5b6967343">Sandhiya H</a> *(reserve)* | Lightning talk |
 | | | **Short talks** | |
-| 18:26 | 5 min | <a href="https://linkedin.com/in/janani-s-8663b2293">Janani S</a><br><a href="slides/janani_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude in a data engineer's daily flow |
+| 18:26 | 5 min | <a href="https://linkedin.com/in/janani-s-8663b2293">Janani S</a><br><a href="slides/janani_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Built a chatbot with the Claude API — now exploring Claude Code |
 | 18:31 | 5 min | <a href="https://linkedin.com/in/lingeswaran-kathiresan-hr">Lingeswaran Kathiresan</a><br><a href="slides/lingeswaran_kathiresan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude + Power BI for HR analytics |
 | 18:36 | 5 min | <a href="https://www.linkedin.com/in/nicolas-martin-a2668122/">Nicolas Martin</a><br><a href="slides/nicolas_martin" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Claude Code best practices — live demo |
 | | | **Depth** | |
@@ -57,7 +57,7 @@ Vikram introduces each block and each 10-minute speaker.
 | 19:34 | 2 min | <a href="https://linkedin.com/in/iyyanar-s-173293251">Iyyanar S</a> *(reserve)* | Lightning talk |
 | | | **Short talks** | |
 | 19:36 | 5 min | <a href="https://linkedin.com/in/monishchander">Monish Chander</a><br><a href="slides/monish_chander" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Junior DE building scalable backends with Claude |
-| 19:41 | 5 min | <a href="https://linkedin.com/in/partha-sarathy-s">Partha Sarathy S</a><br><a href="slides/partha_sarathy_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Lakehouse pipelines with Spark + Claude |
+| 19:41 | 5 min | <a href="https://linkedin.com/in/partha-sarathy-s">Partha Sarathy S</a><br><a href="slides/partha_sarathy_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I use Claude in my daily development workflow |
 | 19:46 | 5 min | <a href="https://linkedin.com/in/harini-krishnamoorthy-2a4088356">Harini Krishnamoorthy</a><br><a href="slides/harini_krishnamoorthy" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Student building a 3D portfolio with Next.js + Three.js |
 | | | **Depth** | |
 | 19:51 | 10 min | <a href="https://linkedin.com/in/sankaranand">Sankaranand Balaradjou</a><br><a href="slides/sankaranand_balaradjou" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | EdTech — Willdoo Education |
@@ -77,7 +77,7 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 
 ### 10-minute talks
 
-- **[Joseph Christopher](https://linkedin.com/in/joseph-christopher-6a635721)** (Decision Minds) — Host & Director
+- **[Joseph Christopher](https://linkedin.com/in/joseph-christopher-6a635721)** (Decision Minds) — Host · Director of AI and Data
 - **[Sudharsan Ananth](https://linkedin.com/in/sudharsan-ananth)** (Sparkable) — How I built a successful business with Claude
 - **[Krishna Prathab R V](https://linkedin.com/in/prathab)** (Hopsticks) — Founder lens, Google Appscale alum
 - **[Archana Dhinakaran](https://linkedin.com/in/archanadhinakaran)** — AI-First Fractional GC, governance by design
@@ -86,11 +86,11 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 
 ### 5-minute talks
 
-- **[Janani S](https://linkedin.com/in/janani-s-8663b2293)** (Decision Minds) — Data engineering intern, AI tools practitioner
+- **[Janani S](https://linkedin.com/in/janani-s-8663b2293)** (Decision Minds) — Data Engineer & Claude Builder · built a legal document analyzer with Claude
 - **[Lingeswaran Kathiresan](https://linkedin.com/in/lingeswaran-kathiresan-hr)** (Integra) — HR Business Partner, analytics + automation
 - **[Nicolas Martin](https://www.linkedin.com/in/nicolas-martin-a2668122/)** (Fractal-Apps) — Full-stack Data Scientist, airoomstyles.com
 - **[Monish Chander](https://linkedin.com/in/monishchander)** (Twilight IT Solutions) — Junior Data Engineer
-- **[Partha Sarathy S](https://linkedin.com/in/partha-sarathy-s)** (Decision Minds) — Databricks Certified DE Associate
+- **[Partha Sarathy S](https://linkedin.com/in/partha-sarathy-s)** (Decision Minds) — Data Engineer Trainee · using Claude in daily dev workflow
 - **[Harini Krishnamoorthy](https://linkedin.com/in/harini-krishnamoorthy-2a4088356)** (SMVEC) — CS student, 3D portfolio builder
 
 ### 2-minute lightning talks
