@@ -44,31 +44,31 @@ Vikram introduces each block and each 10-minute speaker.
 
 | Time | Duration | What |
 |------|----------|------|
-| 19:01 | 15 min | Networking & food |
+| 19:01 | 19 min | Networking & food |
 
-### Half 2 — 19:16 → 20:12
+### Half 2 — 19:20 → 20:11
 
 | Time | Duration | Speaker | Topic |
 |------|----------|---------|-------|
-| 19:16 | 10 min | <a href="https://linkedin.com/in/prathab">Krishna Prathab R V</a><br><a href="slides/krishna_prathab" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Founder lens — building Hopsticks 0→1 / 1→10 |
+| 19:20 | 10 min | <a href="https://linkedin.com/in/prathab">Krishna Prathab R V</a><br><a href="slides/krishna_prathab" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Founder lens — building Hopsticks 0→1 / 1→10 |
 | | | **Lightning round** | |
-| 19:26 | 2 min | <a href="https://linkedin.com/in/ashoke-das-41b4809">Ashoke Das</a> | Lightning talk |
-| 19:28 | 2 min | <a href="https://linkedin.com/in/GowthamM">Gowtham M</a> *(reserve)* | Lightning talk |
-| 19:30 | 2 min | <a href="https://linkedin.com/in/iyyanar-s-173293251">Iyyanar S</a> *(reserve)* | Lightning talk |
+| 19:30 | 2 min | <a href="https://linkedin.com/in/ashoke-das-41b4809">Ashoke Das</a> | Lightning talk |
+| 19:32 | 2 min | <a href="https://linkedin.com/in/GowthamM">Gowtham M</a> *(reserve)* | Lightning talk |
+| 19:34 | 2 min | <a href="https://linkedin.com/in/iyyanar-s-173293251">Iyyanar S</a> *(reserve)* | Lightning talk |
 | | | **Short talks** | |
-| 19:32 | 5 min | <a href="https://linkedin.com/in/monishchander">Monish Chander</a><br><a href="slides/monish_chander" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Junior DE building scalable backends with Claude |
-| 19:37 | 5 min | <a href="https://linkedin.com/in/partha-sarathy-s">Partha Sarathy S</a><br><a href="slides/partha_sarathy_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I use Claude in my daily development workflow |
-| 19:42 | 5 min | <a href="https://linkedin.com/in/akshaya-r-3aa86a253">Akshaya R</a><br><a href="slides/akshaya_r" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How Claude agents use tools to get real work done |
-| 19:47 | 5 min | <a href="https://linkedin.com/in/harini-krishnamoorthy-2a4088356">Harini Krishnamoorthy</a><br><a href="slides/harini_krishnamoorthy" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Student building a 3D portfolio with Next.js + Three.js |
+| 19:36 | 5 min | <a href="https://linkedin.com/in/monishchander">Monish Chander</a><br><a href="slides/monish_chander" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Junior DE building scalable backends with Claude |
+| 19:41 | 5 min | <a href="https://linkedin.com/in/partha-sarathy-s">Partha Sarathy S</a><br><a href="slides/partha_sarathy_s" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How I use Claude in my daily development workflow |
+| 19:46 | 5 min | <a href="https://linkedin.com/in/akshaya-r-3aa86a253">Akshaya R</a><br><a href="slides/akshaya_r" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | How Claude agents use tools to get real work done |
+| 19:51 | 5 min | <a href="https://linkedin.com/in/geraldine-a-6030b62aa">Geraldine A</a><br><a href="slides/geraldine_a" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building Upskillo — AI career training that evaluates progress |
+| 19:56 | 5 min | <a href="https://linkedin.com/in/harini-krishnamoorthy-2a4088356">Harini Krishnamoorthy</a><br><a href="slides/harini_krishnamoorthy" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Student building a 3D portfolio with Next.js + Three.js |
 | | | **Depth** | |
-| 19:52 | 10 min | <a href="https://linkedin.com/in/sankaranand">Sankaranand Balaradjou</a><br><a href="slides/sankaranand_balaradjou" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | EdTech — Willdoo Education |
-| 20:02 | 10 min | <a href="https://linkedin.com/in/ramanan-prabakaran">Ramanan Prabakaran</a><br><a href="slides/ramanan_prabakaran" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI-driven QA — Jessie chatbot, MCP integration |
+| 20:01 | 10 min | <a href="https://linkedin.com/in/ramanan-prabakaran">Ramanan Prabakaran</a><br><a href="slides/ramanan_prabakaran" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI-driven QA — Jessie chatbot, MCP integration |
 
 ### Closing
 
 | Time | Duration | What |
 |------|----------|------|
-| 20:12 | 5 min | Closing — Vikram, group photo |
+| 20:11 | 5 min | Closing — Vikram, group photo |
 
 ---
 
@@ -82,7 +82,6 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 - **[Sudharsan Ananth](https://linkedin.com/in/sudharsan-ananth)** (Sparkable) — How I built a successful business with Claude
 - **[Krishna Prathab R V](https://linkedin.com/in/prathab)** (Hopsticks) — Founder lens, Google Appscale alum
 - **[Archana Dhinakaran](https://linkedin.com/in/archanadhinakaran)** — AI-First Fractional GC, governance by design
-- **[Sankaranand Balaradjou](https://linkedin.com/in/sankaranand)** (Willdoo Education) — EdTech, futuristic learning
 - **[Ramanan Prabakaran](https://linkedin.com/in/ramanan-prabakaran)** (AAHA Solutions) — AI-driven testing, MCP integration
 
 ### 5-minute talks
@@ -94,6 +93,7 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 - **[Partha Sarathy S](https://linkedin.com/in/partha-sarathy-s)** (Decision Minds) — Data Engineer Trainee · using Claude in daily dev workflow
 - **[Harini Krishnamoorthy](https://linkedin.com/in/harini-krishnamoorthy-2a4088356)** (SMVEC) — CS student, 3D portfolio builder
 - **[Akshaya R](https://linkedin.com/in/akshaya-r-3aa86a253)** (Decision Minds) — Data Engineer Trainee · how Claude agents use tools
+- **[Geraldine A](https://linkedin.com/in/geraldine-a-6030b62aa)** (SMVEC) — Student · building Upskillo, an AI career training platform
 
 ### 2-minute lightning talks
 
