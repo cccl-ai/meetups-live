@@ -10,6 +10,15 @@ meta:
     value: "18:15 – 20:27"
   - label: Venue
     value: "Pondicherry — Decision Minds office"
+footer_links:
+  - label: WhatsApp
+    url: https://cccl.ai/tn/whatsapp
+  - label: Slack
+    url: https://cccl.ai/slack
+  - label: Events
+    url: https://cccl.ai/events
+  - label: cccl.ai
+    url: https://cccl.ai
 ---
 
 ## Schedule
