@@ -51,7 +51,7 @@ Vikram introduces each block and each 10-minute speaker.
 
 | Time | Duration | Speaker | Topic |
 |------|----------|---------|-------|
-| 19:31 | 10 min | <a href="https://linkedin.com/in/prathab">Krishna Prathab R V</a><br><a href="slides/krishna_prathab" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Founder lens — building Hopsticks 0→1 / 1→10 |
+| 19:31 | 10 min | <a href="https://linkedin.com/in/prathab">Krishna Prathab</a><br><a href="slides/krishna_prathab" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | AI in Financial Markets — From Signals to Autonomous Decisions |
 | | | **Lightning round** | |
 | 19:41 | 2 min | <a href="https://linkedin.com/in/ashoke-das-41b4809">Ashoke Das</a> | Lightning talk |
 | 19:43 | 2 min | <a href="https://linkedin.com/in/GowthamM">Gowtham M</a> *(reserve)* | Lightning talk |
@@ -79,9 +79,9 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min. *Reserves* s
 
 ### 10-minute talks
 
-- **[Joseph Christopher](https://linkedin.com/in/joseph-christopher-6a635721)** (Decision Minds) — Host · Director of AI and Data
+- **[Joseph Christopher](https://linkedin.com/in/joseph-christopher-6a635721)** (Decision Minds) — Host · Director leading AI and Data
 - **[Sudharsan Ananth](https://linkedin.com/in/sudharsan-ananth)** (Sparkable) — How I built a successful business with Claude
-- **[Krishna Prathab R V](https://linkedin.com/in/prathab)** (Hopsticks) — Founder lens, Google Appscale alum
+- **[Krishna Prathab](https://linkedin.com/in/prathab)** — Quant & Algorithmic Trader · AI in Financial Markets
 - **[Archana Dhinakaran](https://linkedin.com/in/archanadhinakaran)** — AI-First Fractional GC, governance by design
 - **[Ramanan Prabakaran](https://linkedin.com/in/ramanan-prabakaran)** (AAHA Solutions) — AI-driven testing, MCP integration
 
