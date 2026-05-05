@@ -30,7 +30,7 @@ Vikram introduces each block and each 10-minute speaker.
 | Time | Duration | What |
 |------|----------|------|
 | 18:00 | 15 min | Doors open — networking & settling in |
-| 18:15 | 3 min | Welcome — Vikram |
+| 18:15 | 3 min | Welcome — <a href="https://www.linkedin.com/in/vikrammpawar/">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 | 18:18 | 7 min | Anthropic intro video |
 
 ### Half 1 — 18:25 → 19:16
