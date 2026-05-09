@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CCCL HYD #1 — Speaker Slides</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; font-family: 'Inter', sans-serif; color: #e8e4dd; min-height: 100vh; padding: 60px 80px; }
+  h1 { font-size: 14px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: #a8a4a0; margin-bottom: 6px; }
+  h1 span { color: #c4825f; }
+  .subtitle { font-size: 28px; font-weight: 600; color: #e8e4dd; margin-bottom: 8px; }
+  .meta { font-size: 13px; color: #a8a4a0; margin-bottom: 48px; }
+  .section-label { font-size: 11px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: #c4825f; margin: 32px 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(196,130,95,0.15); border-radius: 12px; padding: 18px 22px; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 16px; transition: background 0.15s, border-color 0.15s; }
+  .card:hover { background: rgba(196,130,95,0.08); border-color: rgba(196,130,95,0.4); }
+  .card.blue { border-color: rgba(136,187,255,0.15); }
+  .card.blue:hover { background: rgba(136,187,255,0.08); border-color: rgba(136,187,255,0.4); }
+  .avatar { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid rgba(196,130,95,0.3); flex-shrink: 0; }
+  .avatar.blue { border-color: rgba(136,187,255,0.3); }
+  .info { min-width: 0; flex: 1; }
+  .num { font-size: 11px; font-weight: 500; letter-spacing: 1.5px; color: #c4825f; text-transform: uppercase; margin-bottom: 2px; }
+  .num.blue { color: #88BBFF; }
+  .name { font-size: 16px; font-weight: 600; color: #e8e4dd; }
+  .role { font-size: 12px; font-weight: 300; color: #a8a4a0; margin-top: 2px; }
+  .badge { margin-left: auto; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border-radius: 20px; flex-shrink: 0; }
+  .badge.draft { background: rgba(136,187,255,0.1); color: #88BBFF; border: 1px solid rgba(136,187,255,0.2); }
+  .nav-links { margin-bottom: 32px; display: flex; gap: 16px; }
+  .nav-links a { font-size: 13px; color: #a8a4a0; text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; }
+  .nav-links a:hover { color: #e8e4dd; border-color: rgba(196,130,95,0.4); }
+</style>
+</head>
+<body>
+
+<h1><span>CCCL HYD #1</span> — Claude Code for Everyone</h1>
+<div class="subtitle">Speaker Slides</div>
+<div class="meta">9 May 2026 · Hyderabad · Near Hitech City</div>
+
+<div class="nav-links">
+  <a href="title.html">Title slide</a>
+  <a href="agenda.html">Agenda</a>
+</div>
+
+<div class="section-label">Half 1 — 10-min speakers</div>
+<div class="grid">
+
+  <a class="card" href="ravi_kiran_vemula.html">
+    <img class="avatar" src="photos/ravi_kiran_vemula.jpg" alt="" />
+    <div class="info">
+      <div class="num">01 · Host</div>
+      <div class="name">Ravi Kiran Vemula</div>
+      <div class="role">VP of Engineering · Knacklabs</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+  <a class="card" href="pramod_chintapenta.html">
+    <img class="avatar" src="photos/pramod_chintapenta.jpg" alt="" />
+    <div class="info">
+      <div class="num">04</div>
+      <div class="name">Pramod Chintapenta</div>
+      <div class="role">Co-founder · Futurely Inc</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+</div>
+
+<div class="section-label">Half 1 — 5-min speakers</div>
+<div class="grid">
+
+  <a class="card blue" href="kavya_eluru.html">
+    <img class="avatar blue" src="photos/kavya_eluru.jpg" alt="" />
+    <div class="info">
+      <div class="num blue">02</div>
+      <div class="name">Kavya Eluru</div>
+      <div class="role">Head of Product · Razor Group</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+  <a class="card blue" href="deepak_grover.html">
+    <img class="avatar blue" src="photos/deepak_grover.jpg" alt="" />
+    <div class="info">
+      <div class="num blue">03</div>
+      <div class="name">Deepak Grover</div>
+      <div class="role">Frontline AI Engineer · Enaiblr AI</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+</div>
+
+<div class="section-label">Half 2 — 10-min speakers</div>
+<div class="grid">
+
+  <a class="card" href="hari_pavan.html">
+    <img class="avatar" src="photos/hari_pavan.jpg" alt="" />
+    <div class="info">
+      <div class="num">05</div>
+      <div class="name">Hari Pavan</div>
+      <div class="role">HR Gen AI Engineer · Welspun GCC</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+  <a class="card" href="prasad_chodavarapu.html">
+    <img class="avatar" src="photos/prasad_chodavarapu.jpg" alt="" />
+    <div class="info">
+      <div class="num">08 · Anchor</div>
+      <div class="name">Prasad Chodavarapu</div>
+      <div class="role">Founder · Aganitha Cognitive Solutions</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+</div>
+
+<div class="section-label">Half 2 — 5-min speakers</div>
+<div class="grid">
+
+  <a class="card blue" href="mani_shanker_talusani.html">
+    <img class="avatar blue" src="photos/mani_shanker_talusani.jpg" alt="" />
+    <div class="info">
+      <div class="num blue">06</div>
+      <div class="name">Mani Shanker Talusani</div>
+      <div class="role">Founder · TryNewAI</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+  <a class="card blue" href="john_zakkam.html">
+    <img class="avatar blue" src="photos/john_zakkam.jpg" alt="" />
+    <div class="info">
+      <div class="num blue">07</div>
+      <div class="name">John Zakkam</div>
+      <div class="role">Senior AI Engineer · Kinara AI</div>
+    </div>
+    <span class="badge draft">Draft</span>
+  </a>
+
+</div>
+
+</body>
+</html>

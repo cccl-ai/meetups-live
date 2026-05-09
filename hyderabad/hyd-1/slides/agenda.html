@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(150deg, #1a1a2e 0%, #16162b 60%, #1c1c30 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; }
+
+  .header { padding: 24px 64px 0; display: flex; justify-content: space-between; align-items: flex-start; flex-shrink: 0; }
+  .cccl-word { font-family: Georgia, serif; font-weight: 700; font-size: 38px; line-height: 1; }
+  .cccl-word .cc { color: #c4825f; }
+  .cccl-word .cl { color: #e8e4dd; }
+  .header-right { text-align: right; }
+  .prog-label { font-size: 14px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #e8e4dd; }
+  .prog-sub { font-size: 11px; color: #a8a4a0; letter-spacing: 1px; margin-top: 3px; }
+
+  .content { flex: 1; display: flex; gap: 0; padding: 16px 64px 0; }
+  .col { flex: 1; display: flex; flex-direction: column; }
+  .col:first-child { padding-right: 32px; border-right: 1px solid rgba(196,130,95,0.18); }
+  .col:last-child { padding-left: 32px; }
+
+  .col-header { font-size: 10px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: #c4825f; margin-bottom: 10px; padding-bottom: 7px; border-bottom: 1px solid rgba(196,130,95,0.28); }
+
+  .row { display: flex; align-items: center; gap: 10px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.035); }
+  .time { font-size: 11.5px; font-weight: 600; color: #706c68; font-variant-numeric: tabular-nums; width: 44px; flex-shrink: 0; }
+  .speaker { font-size: 13px; font-weight: 500; color: #e8e4dd; flex: 1; }
+  .dur { font-size: 10.5px; font-weight: 500; color: #c4825f; flex-shrink: 0; opacity: 0.85; }
+
+  .row.muted .speaker { color: #7a7672; font-weight: 400; font-style: italic; font-size: 12px; }
+  .row.muted .time { color: #585450; }
+  .row.openmic .speaker { color: #a8d8b0; }
+  .row.openmic .dur { color: #a8d8b0; opacity: 1; }
+  .row.break-row { background: rgba(196,130,95,0.08); border-radius: 4px; margin: 4px 0; padding: 5px 8px; border-bottom: none; }
+  .row.break-row .speaker { color: #c4825f; font-weight: 500; font-size: 12px; }
+  .row.break-row .time { color: #a8a4a0; }
+  .row.anchor .speaker { color: #f0d080; font-weight: 600; }
+  .row.anchor .dur { color: #f0d080; opacity: 1; }
+
+  .footer-band { background: #13131f; border-top: 1px solid rgba(196,130,95,0.2); height: 52px; display: flex; align-items: center; padding: 0 64px; justify-content: space-between; flex-shrink: 0; }
+  .footer-left { display: flex; align-items: center; gap: 14px; }
+  .cccl-logo { height: 32px; opacity: 0.85; }
+  .event-label { font-size: 11px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: #a8a4a0; }
+  .event-label span { color: #c4825f; }
+  .url { font-size: 11px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="header">
+    <div class="cccl-word"><span class="cc">CC</span><span class="cl">CL</span></div>
+    <div class="header-right">
+      <div class="prog-label">Programme</div>
+      <div class="prog-sub">9 May 2026 &nbsp;·&nbsp; Hyderabad</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="col">
+      <div class="col-header">First Half &nbsp;·&nbsp; 18:00 – 19:10</div>
+
+      <div class="row muted">
+        <div class="time">18:00</div>
+        <div class="speaker">Doors open · networking</div>
+      </div>
+      <div class="row muted">
+        <div class="time">18:15</div>
+        <div class="speaker">Welcome · Vikram + Anthropic intro video</div>
+        <div class="dur">10m</div>
+      </div>
+      <div class="row">
+        <div class="time">18:25</div>
+        <div class="speaker">Ravi Kiran Vemula &nbsp;<span style="font-size:10px;color:#706c68;font-weight:400">· Host</span></div>
+        <div class="dur">10m</div>
+      </div>
+      <div class="row">
+        <div class="time">18:35</div>
+        <div class="speaker">Kavya Eluru</div>
+        <div class="dur">5m</div>
+      </div>
+      <div class="row">
+        <div class="time">18:40</div>
+        <div class="speaker">Deepak Grover</div>
+        <div class="dur">5m</div>
+      </div>
+      <div class="row openmic">
+        <div class="time">18:45</div>
+        <div class="speaker">🎤 Open Mic</div>
+        <div class="dur">~15m</div>
+      </div>
+      <div class="row">
+        <div class="time">19:00</div>
+        <div class="speaker">Pramod Chintapenta</div>
+        <div class="dur">10m</div>
+      </div>
+      <div class="row break-row">
+        <div class="time">19:10</div>
+        <div class="speaker">Break · refreshments · networking</div>
+        <div class="dur">20m</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="col-header">Second Half &nbsp;·&nbsp; 19:30 – 20:15</div>
+
+      <div class="row">
+        <div class="time">19:30</div>
+        <div class="speaker">Hari Pavan</div>
+        <div class="dur">10m</div>
+      </div>
+      <div class="row">
+        <div class="time">19:40</div>
+        <div class="speaker">Mani Shanker Talusani</div>
+        <div class="dur">5m</div>
+      </div>
+      <div class="row">
+        <div class="time">19:45</div>
+        <div class="speaker">John Zakkam</div>
+        <div class="dur">5m</div>
+      </div>
+      <div class="row openmic">
+        <div class="time">19:50</div>
+        <div class="speaker">🎤 Open Mic</div>
+        <div class="dur">~15m</div>
+      </div>
+      <div class="row anchor">
+        <div class="time">20:05</div>
+        <div class="speaker">Prasad Chodavarapu</div>
+        <div class="dur">10m</div>
+      </div>
+      <div class="row muted">
+        <div class="time">20:15</div>
+        <div class="speaker">Closing remarks · group photo</div>
+        <div class="dur">5m</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-band">
+    <div class="footer-left">
+      <img class="cccl-logo" src="https://cccl.ai/logos/cccl-badge-dark.svg" alt="CCCL" />
+      <div class="event-label"><span>CCCL HYD #1</span> — Claude Code for Everyone</div>
+    </div>
+    <div class="url">9 May 2026 · Hyderabad &nbsp;·&nbsp; cccl.ai</div>
+  </div>
+</div>
+</body>
+</html>

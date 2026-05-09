@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: #c4755a; position: relative; overflow: hidden; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; justify-content: space-between; padding: 60px 80px; }
+  .globe { position: absolute; right: -30px; top: 50%; transform: translateY(-50%); width: 520px; opacity: 1; }
+  .date-box { display: inline-block; border: 2px solid rgba(0,0,0,0.35); padding: 10px 24px; font-size: 22px; font-weight: 500; color: #1a1a1a; font-family: Georgia, serif; }
+  .label { font-size: 26px; font-weight: 500; color: #1a1a1a; margin-top: 22px; font-family: Georgia, serif; }
+  .title { font-size: 108px; font-weight: 700; color: #ffffff; line-height: 1; font-family: Georgia, serif; margin-top: 8px; }
+  .collab { display: flex; align-items: center; gap: 10px; font-size: 20px; color: #1a1a1a; font-family: Georgia, serif; }
+  .collab img { height: 26px; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <img class="globe" src="photos/globe.png" alt="" />
+  <div>
+    <div class="date-box">2 May  2026</div>
+    <div class="label">Claude Code</div>
+    <div class="title">CCCL HYD #1</div>
+  </div>
+  <div class="collab">
+    In collaboration with &nbsp;<img src="https://cccl.ai/logos/claude-wordmark-dark.svg" alt="Claude" />
+  </div>
+</div>
+</body>
+</html>
