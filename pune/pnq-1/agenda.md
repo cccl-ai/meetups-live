@@ -51,7 +51,7 @@ Vikram introduces each block and each 10-minute speaker.
 
 | Time | Duration | Speaker | Topic |
 |------|----------|---------|-------|
-| 19:30 | 5 min | <a href="https://linkedin.com/in/nukulsehgal">Nukul Sehgal</a><br><a href="slides/nukul_sehgal" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | TBC |
+| 19:30 | 5 min | <a href="https://linkedin.com/in/nukulsehgal">Nukul Sehgal</a><br><a href="slides/nukul_sehgal" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building a Compliance Agents Ecosystem with Claude Code |
 | 19:35 | 5 min | <a href="https://linkedin.com/in/shreya-salve-88463236a">Shreya Salve</a><br><a href="slides/shreya_salve" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Building a Cognitive Co-Founder with AI |
 | 19:40 | 5 min | <a href="https://linkedin.com/in/ketankhairnar">Ketan Khairnar</a><br><a href="slides/ketan_khairnar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | TBC |
 | 19:45 | ~25 min | 🎤 **Open Mic** | Floor open — anyone's story |
@@ -77,7 +77,7 @@ Lightning talks ~2 min · Short talks ~5 min · Main talks ~10 min.
 
 - **[Rohit Raut](https://linkedin.com/in/rohitraut01)** (BoominMedia) — Founder · How I Automated My Entire Client Onboarding with Claude Code
 - **[Abhyuday Chavan](https://linkedin.com/in/abhyuday-chavan-6087663b1)** — AI Creative · Graphic Designer · Vibe Coder
-- **[Nukul Sehgal](https://linkedin.com/in/nukulsehgal)** (NXP Semiconductors) — SDV Solution Architect · TBC
+- **[Nukul Sehgal](https://linkedin.com/in/nukulsehgal)** (Omyalabs.io) — Agentic AI Harness Strategist · Building a Compliance Agents Ecosystem with Claude Code
 - **[Shreya Salve](https://linkedin.com/in/shreya-salve-88463236a)** — AI & ML Developer · Building a Cognitive Co-Founder with AI
 - **[Ketan Khairnar](https://linkedin.com/in/ketankhairnar)** — Backend Engineer · AI & Agentic Systems · TBC
 
