@@ -20,7 +20,7 @@ meta:
 | Time | What |
 |------|------|
 | 18:00 | Doors open — food & drinks |
-| 18:30 | Welcome — Vikram |
+| 18:30 | Welcome — <a href="https://www.linkedin.com/in/vikrammpawar/" target="_blank">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> |
 
 ### First Half — 5 Talks
 
@@ -54,7 +54,7 @@ meta:
 
 | Time | What |
 |------|------|
-| 20:16 | Closing — Vikram |
+| 20:16 | Closing — <a href="https://www.linkedin.com/in/vikrammpawar/" target="_blank">Vikram Pawar</a> |
 
 ---
 
