@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>API Credits — CCCL #6</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide {
+    width: 1280px; height: 720px;
+    background: linear-gradient(150deg, #1a1a2e 0%, #16162b 60%, #1c1c30 100%);
+    position: relative; overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    display: flex; flex-direction: column;
+  }
+  .watermark {
+    position: absolute; right: -20px; bottom: 50px;
+    font-family: Georgia, serif; font-weight: 700; font-size: 280px;
+    line-height: 1; pointer-events: none; z-index: 0; user-select: none;
+  }
+  .watermark .cc { color: rgba(196,130,95,0.05); }
+  .watermark .cl { color: rgba(232,228,221,0.04); }
+  .content {
+    position: relative; z-index: 1;
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 60px;
+  }
+  .tag {
+    font-size: 13px; font-weight: 500; letter-spacing: 3px;
+    text-transform: uppercase; color: #c4825f;
+    margin-bottom: 28px;
+  }
+  .title {
+    font-family: Georgia, serif;
+    font-size: 80px; font-weight: 700;
+    color: #e8e4dd; text-align: center;
+    line-height: 1.1; margin-bottom: 28px;
+  }
+  .divider {
+    width: 60px; height: 3px;
+    background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.2));
+    border-radius: 2px; margin-bottom: 28px;
+  }
+  .placeholder {
+    font-size: 22px; font-weight: 300; color: #a8a4a0;
+    text-align: center; line-height: 1.6;
+    border: 1px dashed rgba(196,130,95,0.3);
+    border-radius: 12px; padding: 20px 40px;
+  }
+  .footer-band {
+    background: #13131f; border-top: 1px solid rgba(196,130,95,0.2);
+    height: 60px; display: flex; align-items: center;
+    padding: 0 80px; justify-content: space-between; flex-shrink: 0;
+  }
+  .footer-left { display: flex; align-items: center; gap: 14px; }
+  .cccl-logo { height: 38px; opacity: 0.85; }
+  .event-label {
+    font-size: 12px; font-weight: 500; letter-spacing: 1.5px;
+    text-transform: uppercase; color: #a8a4a0;
+  }
+  .event-label span { color: #c4825f; }
+  .url { font-size: 12px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="watermark"><span class="cc">CC</span><span class="cl">CL</span></div>
+  <div class="content">
+    <div class="tag">Tonight's Sponsor</div>
+    <div class="title">API Credits</div>
+    <div class="divider"></div>
+    <div class="placeholder">[ placeholder — add sponsor details ]</div>
+  </div>
+  <div class="footer-band">
+    <div class="footer-left">
+      <img class="cccl-logo" src="https://cccl.ai/logos/cccl-badge-dark.svg" alt="CCCL" />
+      <div class="event-label"><span>CCCL #6</span> — Claude Code for Everyone</div>
+    </div>
+    <div class="url">26 May 2026 · London &nbsp;·&nbsp; cccl.ai</div>
+  </div>
+</div>
+</body>
+</html>

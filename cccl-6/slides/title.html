@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CCCL #6 — Claude Code for Everyone</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #D97757; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide {
+    width: 1280px; height: 720px;
+    background: #D97757;
+    position: relative; overflow: hidden;
+    font-family: 'Inter', sans-serif;
+  }
+  .globe {
+    position: absolute;
+    right: -30px; top: 40px;
+    width: 420px; height: 420px;
+    opacity: 0.9;
+  }
+  .content {
+    position: absolute;
+    left: 72px; top: 0; bottom: 0;
+    display: flex; flex-direction: column; justify-content: center;
+    padding-right: 480px;
+  }
+  .event-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; font-weight: 500;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: rgba(0,0,0,0.55);
+    margin-bottom: 20px;
+  }
+  .title {
+    font-family: Georgia, serif;
+    font-size: 72px; font-weight: 700;
+    color: #1a0e08;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px; font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  .date {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px; font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 36px; left: 72px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .claude-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px; font-weight: 500;
+    color: #1a0e08;
+  }
+  .claude-asterisk {
+    font-size: 28px; font-weight: 700;
+    color: #1a0e08;
+  }
+</style>
+</head>
+<body>
+<div class="slide">
+  <img class="globe" src="cccl_globe_icon.png" alt="" />
+  <div class="content">
+    <div class="event-label">Claude Code Meetups · London</div>
+    <div class="title">Claude Code<br>Central London</div>
+    <div class="subtitle">CCCL #6</div>
+    <div class="date">26 May 2026 · Old Street</div>
+  </div>
+  <div class="bottom">
+    <div class="claude-logo">
+      <span class="claude-asterisk">✳</span>
+      <span>Claude</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
