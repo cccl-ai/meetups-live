@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REMOTE_HOST="hetzner1"
+REMOTE_DIR="~/meetups-live"
+COMPOSE="docker compose -f docker-compose.prod.yml"
+
+case "${1:-}" in
+  build)
+    echo "Building on $REMOTE_HOST..."
+    ssh "$REMOTE_HOST" "cd ${REMOTE_DIR} && git pull && ${COMPOSE} build"
+    echo "Build complete. Run '$0 swap' to deploy."
+    ;;
+  swap)
+    echo "Swapping container on $REMOTE_HOST..."
+    ssh "$REMOTE_HOST" "cd ${REMOTE_DIR} && ${COMPOSE} up -d"
+    echo "Deployed at https://meetups.cccl.ai"
+    ;;
+  *)
+    echo "Usage: $0 {build|swap}"
+    exit 1
+    ;;
+esac
