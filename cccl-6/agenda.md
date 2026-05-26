@@ -62,9 +62,9 @@ meta:
 
 - **[Anbu Dhanushkodi](https://linkedin.com/in/anbarasan-dhanushkodi-3505553)** — Data Platform Architect @ Uss · 11Plus + Claude Code
 - **[Mark Nguyen](https://www.linkedin.com/in/thedesignengr/)** — Founder @ The Design Engineer · What fast Claude Code learners have in common
-- **[Stuart Turner](https://www.linkedin.com/in/sushisushi)** — Founder / CEO @ SushiSushi · topic TBC
+- **[Stuart Turner](https://www.linkedin.com/in/sushisushi)** — Founder · SushiSushi · Running a business & building a startup in Cowork
 - **[Alex Kulikov](https://www.linkedin.com/in/alexeyqu/)** — Head of Engineering @ Sysblok · fix: replace prod password with devpass
-- **[Tirth Kanani](https://www.linkedin.com/in/tirthkanani/)** — AI & Automation Specialist @ Telana · topic TBC
+- **[Tirth Kanani](https://www.linkedin.com/in/tirthkanani/)** — AI & Automation Specialist @ Telana · code-review-graph — stop burning tokens on code reviews
 - **[Dimitrios Koutsoumpos](https://www.linkedin.com/in/koutsoubosdimitrios/)** — ML/AI Financial Analyst @ CityFalcon · BrainDB — Karpathy's LLM Wiki, but in SQL
 - **[Yasir Khalid](https://www.linkedin.com/in/yasir-khalid)** — Lead Developer @ HSBC · The Eval Gap: Why Agent Testing Is Broken
 - **[Edwin Trebels](https://www.linkedin.com/in/etrebels/)** — CGO · Founder @ LangOptima · How to build a Growth Operating System in Claude Code
