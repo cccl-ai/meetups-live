@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installing ant — Notes from the chain of small gotchas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal: #033249;
+    --teal-mid: #054a6b;
+    --teal-light: #0a6a96;
+    --orange: #FF8038;
+    --orange-dim: rgba(255,128,56,0.15);
+    --cream: #EFEDE8;
+    --cream-dim: rgba(239,237,232,0.72);
+    --white: #ffffff;
+    --red: #d14b3a;
+    --green: #4a9e7a;
+    --card-bg: rgba(255,255,255,0.97);
+    --shadow: 0 4px 32px rgba(3,50,73,0.18);
+    --shadow-lg: 0 12px 60px rgba(3,50,73,0.28);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background: var(--teal);
+    color: var(--cream);
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  section {
+    padding: 72px 0;
+    position: relative;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: var(--orange);
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 36px;
+  }
+
+  /* ─── HEADER ─── */
+  header {
+    background: var(--teal);
+    padding: 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: -20%; right: -10%;
+    width: 60vw; height: 60vw;
+    background: radial-gradient(circle, rgba(255,128,56,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -10%; left: -5%;
+    width: 40vw; height: 40vw;
+    background: radial-gradient(circle, rgba(10,106,150,0.25) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .header-inner { position: relative; z-index: 1; animation: fadeUp 1s ease both; }
+  .header-eyebrow {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.25em;
+    text-transform: uppercase; color: var(--orange);
+    margin-bottom: 20px; display: flex; align-items: center; gap: 12px;
+  }
+  .header-eyebrow::before {
+    content: ''; display: block; width: 32px; height: 2px; background: var(--orange);
+  }
+  .header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 7vw, 5.8rem);
+    font-weight: 900; line-height: 1; color: var(--cream);
+    margin-bottom: 12px; letter-spacing: -0.02em;
+  }
+  .header-title span { color: var(--orange); }
+  .header-subtitle {
+    font-size: 1.05rem; font-weight: 300; color: var(--cream-dim);
+    margin-bottom: 36px; letter-spacing: 0.04em;
+  }
+  .header-tagline {
+    font-size: clamp(1.05rem, 2.2vw, 1.35rem); font-weight: 500; color: var(--cream);
+    max-width: 640px; line-height: 1.45;
+    border-left: 3px solid var(--orange); padding-left: 20px;
+  }
+
+  /* Price tiles (optional, header) */
+  .header-price { margin-top: 48px; display: flex; gap: 36px; flex-wrap: wrap; }
+  .price-block { border-left: 1px solid rgba(255,255,255,0.15); padding-left: 20px; }
+  .price-block .label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--cream-dim); display: block; margin-bottom: 6px;
+  }
+  .price-block .amount {
+    font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--cream);
+  }
+  .price-block.highlight .amount { color: var(--orange); }
+
+  /* ─── DARK SECTION (why-grid style) ─── */
+  .section-dark {
+    background: linear-gradient(160deg, #042e45 0%, #033249 60%, #021e2e 100%);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2px;
+  }
+  .why-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 32px 28px; position: relative; overflow: hidden;
+    transition: background 0.3s ease;
+  }
+  .why-card:hover { background: rgba(255,255,255,0.07); }
+  .why-card::after {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--orange); transform: scaleX(0); transform-origin: left;
+    transition: transform 0.5s ease;
+  }
+  .why-card:hover::after { transform: scaleX(1); }
+  .why-num {
+    font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900;
+    color: var(--orange); line-height: 1; margin-bottom: 10px; display: block;
+  }
+  .why-title { font-size: 1rem; font-weight: 600; color: var(--cream); margin-bottom: 6px; }
+  .why-desc { font-size: 0.88rem; color: var(--cream-dim); line-height: 1.5; }
+  .why-desc code {
+    font-family: 'SF Mono', Menlo, monospace; font-size: 0.82rem;
+    background: rgba(255,128,56,0.12); color: var(--orange);
+    padding: 1px 6px; border-radius: 2px;
+  }
+
+  /* ─── CREAM SECTION ─── */
+  .section-cream { background: var(--cream); color: var(--teal); }
+  .section-cream .section-title { color: var(--teal); }
+  .section-cream .section-label { color: var(--orange); }
+
+  /* Options / comparison cards */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .option-card {
+    background: var(--white); border-radius: 4px; padding: 28px 26px;
+    box-shadow: var(--shadow); position: relative; overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .option-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+  .option-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  }
+  .option-card.rejected::before { background: var(--red); }
+  .option-card.chosen::before   { background: var(--green); }
+  .option-card.neutral::before  { background: var(--teal-light); }
+  .option-card.chosen { border: 2px solid var(--green); padding: 26px 24px; }
+  .option-tag {
+    display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.18em;
+    text-transform: uppercase; padding: 4px 10px; border-radius: 2px; margin-bottom: 16px;
+  }
+  .option-card.rejected .option-tag { background: rgba(209,75,58,0.12); color: var(--red); }
+  .option-card.chosen .option-tag   { background: rgba(74,158,122,0.15); color: var(--green); }
+  .option-card.neutral .option-tag  { background: rgba(10,106,150,0.12); color: var(--teal-light); }
+  .option-title {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700;
+    color: var(--teal); margin-bottom: 4px;
+  }
+  .option-price { font-size: 1.1rem; font-weight: 600; color: var(--orange); margin-bottom: 16px; }
+  .option-reasons { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .option-reasons li {
+    font-size: 0.9rem; line-height: 1.45; color: var(--teal-mid);
+    padding-left: 18px; position: relative;
+  }
+  .option-reasons li::before {
+    content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 2px;
+  }
+  .option-card.rejected .option-reasons li::before { background: var(--red); }
+  .option-card.chosen .option-reasons li::before   { background: var(--green); }
+  .option-card.neutral .option-reasons li::before  { background: var(--teal-light); }
+
+  /* ─── PIVOT / PULL-QUOTE SECTION ─── */
+  .section-pivot { background: var(--teal); text-align: center; }
+  .pivot-statement {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.5rem, 3.2vw, 2.4rem); font-weight: 700; font-style: italic;
+    color: var(--cream); max-width: 820px; margin: 0 auto 40px;
+    line-height: 1.35; position: relative; padding: 0 28px;
+  }
+  .pivot-statement::before, .pivot-statement::after {
+    color: var(--orange); font-size: 3rem; font-family: 'Playfair Display', serif;
+    font-weight: 900; opacity: 0.4; position: absolute;
+  }
+  .pivot-statement::before { content: '"'; left: -4px; top: -20px; }
+  .pivot-statement::after  { content: '"'; right: -4px; bottom: -40px; }
+  .pivot-answer {
+    font-size: 1rem; color: var(--cream-dim); max-width: 640px;
+    margin: 0 auto; line-height: 1.6;
+  }
+
+  /* ─── SPEC SHEET ─── */
+  .section-final {
+    background: linear-gradient(135deg, #f3f1ec 0%, var(--cream) 100%);
+    color: var(--teal);
+  }
+  .section-final .section-title { color: var(--teal); }
+  .spec-sheet {
+    background: var(--white); border-radius: 6px; padding: 40px;
+    box-shadow: var(--shadow); border-top: 4px solid var(--green);
+  }
+  .spec-header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    flex-wrap: wrap; gap: 16px; margin-bottom: 28px; padding-bottom: 20px;
+    border-bottom: 1px solid rgba(3,50,73,0.1);
+  }
+  .spec-name { font-family: 'Playfair Display', serif; font-size: 1.7rem; font-weight: 700; color: var(--teal); }
+  .spec-status {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--green); background: rgba(74,158,122,0.12); padding: 6px 12px; border-radius: 2px;
+  }
+  .spec-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px;
+  }
+  .spec-item .spec-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--orange); display: block; margin-bottom: 6px;
+  }
+  .spec-item .spec-value {
+    font-size: 1.05rem; font-weight: 500; color: var(--teal);
+    font-family: 'SF Mono', Menlo, monospace;
+  }
+
+  /* ─── BREAKDOWN TILES (costs, metrics) ─── */
+  .breakdown-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2px; margin-bottom: 40px;
+  }
+  .breakdown-tile {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+    padding: 28px 24px;
+  }
+  .breakdown-tile.final { background: rgba(255,128,56,0.1); border-color: var(--orange); }
+  .breakdown-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--cream-dim); display: block; margin-bottom: 8px;
+  }
+  .breakdown-tile.final .breakdown-label { color: var(--orange); }
+  .breakdown-amount {
+    font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--cream);
+  }
+  .breakdown-tile.final .breakdown-amount { color: var(--orange); }
+  .breakdown-sub { font-size: 0.82rem; color: var(--cream-dim); margin-top: 6px; }
+
+  .pull-note {
+    font-size: 0.92rem; color: var(--cream-dim); line-height: 1.6;
+    max-width: 720px; padding: 20px 24px;
+    border-left: 3px solid var(--orange); background: rgba(255,255,255,0.03);
+  }
+
+  /* ─── NEXT STEPS ─── */
+  .next-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .next-list li {
+    background: var(--white); padding: 18px 22px; border-radius: 4px;
+    border-left: 3px solid var(--orange); box-shadow: 0 2px 12px rgba(3,50,73,0.06);
+    font-size: 0.95rem; color: var(--teal);
+  }
+  .next-list li strong { color: var(--teal); font-weight: 700; margin-right: 8px; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--teal); padding: 40px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    color: var(--cream-dim); font-size: 0.82rem;
+  }
+  footer .footer-inner {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 16px;
+  }
+  footer a { color: var(--orange); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 700px) {
+    section { padding: 56px 0; }
+    .container { padding: 0 24px; }
+    .header-price { gap: 24px; }
+    .pivot-statement::before, .pivot-statement::after { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="header-eyebrow">Field notes · 31 May 2026</div>
+    <h1 class="header-title">Installing <span>ant</span></h1>
+    <div class="header-subtitle">macOS · brew → gh → uv → python</div>
+    <div class="header-tagline">
+      A one-line install surfaced four unrelated gotchas — none of them about ant. The pattern: tools assume a wired-up environment, and macOS upgrades quietly unwire it.
+    </div>
+    <div class="header-price">
+      <div class="price-block">
+        <span class="label">Gotchas hit</span>
+        <div class="amount">4</div>
+      </div>
+      <div class="price-block highlight">
+        <span class="label">Real fix</span>
+        <div class="amount">1</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-dark">
+  <div class="container">
+    <span class="section-label">What broke, in order</span>
+    <h2 class="section-title">Four unrelated cliffs to fall off</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-num">01</span>
+        <div class="why-title">gh auth ≠ git auth</div>
+        <div class="why-desc"><code>gh auth login</code> doesn't configure git's HTTPS credential helper. Brew tap clones via plain git and hit a username prompt. Fix: <code>gh auth setup-git</code>.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">02</span>
+        <div class="why-title">anthropics has an 's'</div>
+        <div class="why-desc">The GitHub org is <code>anthropics</code>, not <code>anthropic</code>. The docs say <code>anthropics/tap/ant</code>; the typo returns a 404 that looks like an access error.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">03</span>
+        <div class="why-title">uv add needs a project</div>
+        <div class="why-desc">No <code>pyproject.toml</code> means no <code>uv add</code>. Either <code>uv init</code> first, or fall back to <code>uv pip install</code> inside a venv.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">04</span>
+        <div class="why-title">Brew Python rots on OS upgrade</div>
+        <div class="why-desc"><code>platform.mac_ver()</code> returning empty is the tell — Homebrew's Python wasn't rebuilt for the new macOS. Reinstall, or stop depending on it.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">05</span>
+        <div class="why-title">Shell vars vanish across sessions</div>
+        <div class="why-desc">The quickstart's <code>$AGENT_ID</code> / <code>$ENVIRONMENT_ID</code> exports don't survive a new terminal. Empty vars → API 400 with a null id. Recover via <code>ant beta:agents list</code> then re-export.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">06</span>
+        <div class="why-title">curl -s hides the error body</div>
+        <div class="why-desc">A bare <code>error: 400</code> tells you nothing. Use <code>-i</code> or drop <code>-s</code> with <code>--fail-with-body</code> so the API's actual rejection message comes through.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-num">07</span>
+        <div class="why-title">Trust the SDK, not the curl snippet</div>
+        <div class="why-desc">Quickstart bash showed <code>/sessions/$ID/stream</code> — 404. SDKs all use <code>sessions.events.stream</code>, i.e. <code>/sessions/$ID/events/stream</code>. That worked. Doc bash examples drift; SDK paths are the source of truth.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="container">
+    <span class="section-label">Where Python comes from</span>
+    <h2 class="section-title">Two ways to get a Python uv can use</h2>
+    <div class="options-grid">
+      <div class="option-card rejected">
+        <span class="option-tag">Fragile</span>
+        <div class="option-title">Homebrew Python</div>
+        <div class="option-price">/opt/homebrew/bin/python3</div>
+        <ul class="option-reasons">
+          <li>Breaks silently when macOS major version changes</li>
+          <li>One global version — hard to pin per project</li>
+          <li>Shared with everything else brew installs</li>
+          <li>Fix requires <code>brew reinstall python@3.x</code> after each OS bump</li>
+        </ul>
+      </div>
+      <div class="option-card chosen">
+        <span class="option-tag">Chosen</span>
+        <div class="option-title">uv-managed Python</div>
+        <div class="option-price">uv init --python 3.13</div>
+        <ul class="option-reasons">
+          <li>uv downloads and pins its own interpreter</li>
+          <li>Per-project version recorded in pyproject.toml</li>
+          <li>Independent of brew, system Python, and OS upgrades</li>
+          <li>No reinstall dance after macOS bumps</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pivot">
+  <div class="container">
+    <span class="section-label" style="justify-content:center;">The realisation</span>
+    <h2 class="section-title" style="text-align:center;">Don't fight the Python that broke.</h2>
+    <div class="pivot-statement">
+      If brew's Python is broken, why is brew's Python in the loop at all?
+    </div>
+    <div class="pivot-answer">
+      <strong style="color:var(--orange);">Remove the fragile link.</strong> uv can fetch and manage its own Python interpreter per project. Passing <code style="background:rgba(255,128,56,0.18);color:var(--orange);padding:1px 6px;border-radius:2px;">--python 3.13</code> to <code style="background:rgba(255,128,56,0.18);color:var(--orange);padding:1px 6px;border-radius:2px;">uv init</code> sidesteps the broken interpreter entirely and removes a fragile dependency from your stack.
+    </div>
+  </div>
+</section>
+
+<section class="section-final">
+  <div class="container">
+    <span class="section-label">Working install path</span>
+    <h2 class="section-title">The commands that actually worked</h2>
+    <div class="spec-sheet">
+      <div class="spec-header">
+        <div class="spec-name">ant CLI + Anthropic SDK</div>
+        <div class="spec-status">Verified</div>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-item">
+          <span class="spec-label">Wire gh to git</span>
+          <div class="spec-value">gh auth setup-git</div>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Install ant CLI</span>
+          <div class="spec-value">brew install anthropics/tap/ant</div>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Bootstrap project</span>
+          <div class="spec-value">uv init --python 3.13</div>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Add SDK</span>
+          <div class="spec-value">uv add anthropic</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div>ant install notes · 2026-05-31 · Vikram Pawar</div>
+    <div>Source: <a href="https://platform.claude.com/docs/en/managed-agents/quickstart">managed-agents quickstart</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
