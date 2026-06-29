@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="24" fill="#1a1a2e"/>
+  <rect x="16" y="16" width="168" height="168" rx="18" fill="none" stroke="#3a3a5e" stroke-width="1.5"/>
+  <text x="100" y="100" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">
+    <tspan fill="#c4825f">CC</tspan><tspan fill="#e8e4dd">CL</tspan>
+  </text>
+  <line x1="72" y1="114" x2="128" y2="114" stroke="#c4825f" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <text x="100" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#a8a4a0" letter-spacing="1.5">CLAUDE CODE MEETUPS</text>
+  <text x="100" y="146" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#a8a4a0" letter-spacing="1.5">IN YOUR CITY</text>
+</svg>
