@@ -59,5 +59,29 @@
       {% endif %}
     </footer>
   </div>
+
+  <button id="fs-toggle" onclick="ccclToggleFs()" title="Full screen (press F)" aria-label="Toggle full screen">⛶</button>
+  <style>
+    #fs-toggle { position: fixed; bottom: 18px; right: 18px; z-index: 50; width: 42px; height: 42px;
+      border-radius: 50%; border: 1px solid rgba(196,130,95,0.3); background: rgba(20,20,34,0.75);
+      color: #e8e4dd; font-size: 18px; line-height: 1; cursor: pointer; display: flex; align-items: center;
+      justify-content: center; backdrop-filter: blur(6px); opacity: .55; transition: opacity .2s, background .2s; }
+    #fs-toggle:hover { opacity: 1; background: rgba(196,130,95,0.35); }
+    @media print { #fs-toggle { display: none; } }
+  </style>
+  <script>
+    function ccclToggleFs() {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+      else document.exitFullscreen && document.exitFullscreen();
+    }
+    document.addEventListener('keydown', function (e) {
+      var t = (document.activeElement && document.activeElement.tagName) || '';
+      if (e.key && e.key.toLowerCase() === 'f' && !/INPUT|TEXTAREA|SELECT/.test(t)) { e.preventDefault(); ccclToggleFs(); }
+    });
+    document.addEventListener('fullscreenchange', function () {
+      var b = document.getElementById('fs-toggle');
+      if (b) b.textContent = document.fullscreenElement ? '⤢' : '⛶';
+    });
+  </script>
 </body>
 </html>
