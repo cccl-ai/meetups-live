@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CCCL PNY2 — Ideaforge 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(135deg, #1a1a2e 0%, #16162b 50%, #1e1e38 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; }
+  .slide::before { content: ''; position: absolute; top: -45%; right: -15%; width: 720px; height: 720px; background: radial-gradient(circle, rgba(196,130,95,0.10) 0%, transparent 70%); border-radius: 50%; }
+  .slide::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 520px; height: 520px; background: radial-gradient(circle, rgba(168,164,160,0.05) 0%, transparent 70%); border-radius: 50%; }
+  .watermark { position: absolute; right: -10px; bottom: 30px; font-family: Georgia, serif; font-weight: 700; font-size: 300px; line-height: 1; pointer-events: none; z-index: 0; user-select: none; }
+  .watermark .cc { color: rgba(196,130,95,0.06); }
+  .watermark .cl { color: rgba(232,228,221,0.04); }
+  .title-image { position: absolute; top: 50%; right: 96px; transform: translateY(-50%); width: 360px; height: 360px; object-fit: cover; border-radius: 28px; z-index: 1; box-shadow: 0 24px 70px rgba(0,0,0,0.4); }
+  .title-image-fade { position: absolute; top: 0; right: 420px; width: 160px; height: 720px; background: linear-gradient(90deg, #16162b 0%, transparent 100%); z-index: 2; }
+  .content { position: relative; z-index: 3; padding: 64px 90px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding-right: 480px; }
+  .cccl-display { display: flex; flex-direction: column; align-items: flex-start; }
+  .cccl-word-lg { font-family: Georgia, serif; font-weight: 700; font-size: 52px; line-height: 1; }
+  .cccl-word-lg .cc { color: #c4825f; }
+  .cccl-word-lg .cl { color: #e8e4dd; }
+  .cccl-underline { width: 100%; height: 2px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.1)); margin-top: 6px; border-radius: 1px; }
+  .cccl-sub { font-size: 11px; letter-spacing: 2.5px; color: #a8a4a0; text-transform: uppercase; margin-top: 8px; }
+  .center { display: flex; flex-direction: column; justify-content: center; flex: 1; }
+  .date-box { display: inline-block; align-self: flex-start; border: 1.5px solid rgba(196,130,95,0.55); padding: 9px 22px; font-size: 18px; font-weight: 500; color: #e8e4dd; font-family: Georgia, serif; margin-bottom: 22px; border-radius: 4px; }
+  .label { font-size: 22px; font-weight: 400; color: #a8a4a0; font-family: Georgia, serif; margin-bottom: 6px; }
+  .title { font-family: Georgia, serif; font-size: 80px; font-weight: 700; color: #e8e4dd; line-height: 1; }
+  .title .accent { color: #c4825f; }
+  .underline { width: 220px; height: 3px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.1)); margin-top: 20px; border-radius: 2px; }
+  .subtitle { font-size: 24px; color: #c4825f; font-weight: 500; margin-top: 22px; }
+  .bottom-bar { display: flex; justify-content: space-between; align-items: flex-end; }
+  .cccl-logo { height: 52px; opacity: 0.85; }
+  .url { font-size: 14px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="watermark"><span class="cc">CC</span><span class="cl">CL</span></div>
+  <img class="title-image" src="pny.png" alt="" />
+
+  <div class="content">
+    <div class="cccl-display">
+      <div class="cccl-word-lg"><span class="cc">CC</span><span class="cl">CL</span></div>
+      <div class="cccl-underline"></div>
+      <div class="cccl-sub">Claude Code Meetups · In Your City</div>
+    </div>
+    <div class="center">
+      <div class="date-box">Thursday 9 July 2026</div>
+      <div class="label">CCCL PNY2 · with IFRINA &amp; CEFP</div>
+      <div class="title">Ideaforge <span class="accent">2026</span></div>
+      <div class="underline"></div>
+      <div class="subtitle">50 students · 100 projects built with Claude</div>
+    </div>
+    <div class="bottom-bar">
+      <img class="cccl-logo" src="cccl-badge-dark.svg" alt="CCCL" />
+      <div class="url">Pondicherry &nbsp;·&nbsp; cccl.ai</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
