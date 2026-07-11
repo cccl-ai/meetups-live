@@ -55,14 +55,21 @@ Anyone on the internet can read it. Therefore:
 | 10:00 | <a href="slides/vikram_pawar">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Greetings & welcome | 10 min |
 | 10:30 | <a href="slides/abhishek_das">Abhishek Das</a><br><a href="slides/abhishek_das" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Enabling Multi-Model Agents on Agno with SurrealDB | 20 min |
 | 10:50 | <a href="slides/farhan_khan">Farhan Khan</a><br><a href="slides/farhan_khan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Persistent memory engine for Claude agents on SurrealDB | 20 min |
-| 11:50 | <a href="slides/deven_mehta">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
-| 12:10 | <a href="slides/vidhunnan_murugan">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
 
 ### Break
 
 | Time | What |
 |------|------|
 | 11:10 | Break — networking & refreshments |
+
+
+### Talks
+
+| Time | Speaker | Topic | Slot |
+|------|---------|-------|------|
+| 11:50 | <a href="slides/deven_mehta">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
+| 12:10 | <a href="slides/vidhunnan_murugan">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
+
 
 ### Closing
 
