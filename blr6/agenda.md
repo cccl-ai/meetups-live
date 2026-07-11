@@ -65,6 +65,7 @@ Anyone on the internet can read it. Therefore:
 | 19:30 | Food & Refreshments Break |
 
 ### Talks (Second Half)
+
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
 | 20:00 | <a href="slides/geetansh_aditya">Geetansh Aditya</a><br><a href="slides/geetansh_aditya" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Agentic Prompt Injection: how-to, impact & offensive tooling | 15 min |
