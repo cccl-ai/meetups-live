@@ -80,7 +80,7 @@ Anyone on the internet can read it. Therefore:
 
 ---
 
-**5 speakers — 1×10-min, 4×10 + 10-min.**
+
 
 ## Speakers
 
