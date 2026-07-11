@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CCCL Team — Bengaluru</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0e0e1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .slide { width: 1280px; height: 720px; background: linear-gradient(135deg, #1a1a2e 0%, #16162b 50%, #1e1e38 100%); position: relative; overflow: hidden; font-family: 'Inter', sans-serif; }
+  .slide::before { content: ''; position: absolute; top: -45%; right: -15%; width: 720px; height: 720px; background: radial-gradient(circle, rgba(196,130,95,0.10) 0%, transparent 70%); border-radius: 50%; }
+  .slide::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 520px; height: 520px; background: radial-gradient(circle, rgba(168,164,160,0.05) 0%, transparent 70%); border-radius: 50%; }
+  .watermark { position: absolute; right: -10px; bottom: 30px; font-family: Georgia, serif; font-weight: 700; font-size: 300px; line-height: 1; pointer-events: none; z-index: 0; user-select: none; }
+  .watermark .cc { color: rgba(196,130,95,0.06); }
+  .watermark .cl { color: rgba(232,228,221,0.04); }
+  .content { position: relative; z-index: 3; padding: 56px 80px 48px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+  .top-tag { font-size: 13px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: #a8a4a0; }
+  .top-tag span { color: #c4825f; }
+  .heading { font-family: Georgia, serif; font-size: 56px; font-weight: 700; color: #e8e4dd; margin-top: 26px; }
+  .heading .accent { color: #c4825f; }
+  .underline { width: 180px; height: 3px; background: linear-gradient(90deg, #c4825f, rgba(196,130,95,0.1)); margin-top: 14px; border-radius: 2px; }
+  .team { display: flex; justify-content: space-between; gap: 40px; margin-top: 28px; flex: 1; }
+  .member { display: flex; flex-direction: column; align-items: center; text-align: center; width: 240px; }
+  .photo-ring { width: 200px; height: 200px; border-radius: 50%; padding: 5px; background: linear-gradient(135deg, #c4825f, rgba(196,130,95,0.15)); }
+  .photo-ring img { width: 190px; height: 190px; border-radius: 50%; object-fit: cover; object-position: top; display: block; }
+  .member-name { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: #e8e4dd; margin-top: 16px; line-height: 1.25; min-height: 62px; display: flex; align-items: center; justify-content: center; }
+  .member-qr { display: flex; flex-direction: column; align-items: center; margin-top: 6px; }
+  .member-qr img { width: 92px; height: 92px; border-radius: 8px; padding: 6px; background: #1a1a2e; border: 1px solid rgba(232,228,221,0.12); }
+  .qr-label { font-size: 11px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: #a8a4a0; margin-top: 6px; }
+  .member-role { font-size: 14px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: #c4825f; margin-top: 8px; }
+  .bottom-bar { display: flex; justify-content: space-between; align-items: flex-end; }
+  .cccl-logo { height: 52px; opacity: 0.85; }
+  .url { font-size: 14px; color: #a8a4a0; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="watermark"><span class="cc">CC</span><span class="cl">CL</span></div>
+  <div class="content">
+    <div>
+      <div class="top-tag"><span>CCCL</span> · Claude Code Meetups · Bengaluru</div>
+      <div class="heading">The <span class="accent">CCCL Team</span></div>
+      <div class="underline"></div>
+    </div>
+    <div class="team">
+      <div class="member">
+        <div class="photo-ring"><img src="photos/aayushi_face.jpeg" alt="Aayushi Bhatiya" /></div>
+        <div class="member-name">Aayushi Bhatiya</div>
+        <div class="member-qr"><img src="data:image/png;base64,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" alt="Aayushi Bhatiya LinkedIn QR" /><div class="qr-label">LinkedIn</div></div>
+      </div>
+      <div class="member">
+        <div class="photo-ring"><img src="photos/akshaya_r.png" alt="Akshaya R" /></div>
+        <div class="member-name">Akshaya R</div>
+        <div class="member-qr"><img src="data:image/png;base64,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" alt="Akshaya R LinkedIn QR" /><div class="qr-label">LinkedIn</div></div>
+      </div>
+      <div class="member">
+        <div class="photo-ring"><img src="photos/arush_face.jpeg" alt="Arush Sinhal" /></div>
+        <div class="member-name">Arush Sinhal</div>
+        <div class="member-qr"><img src="data:image/png;base64,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" alt="Arush Sinhal LinkedIn QR" /><div class="qr-label">LinkedIn</div></div>
+      </div>
+      <div class="member">
+        <div class="photo-ring"><img src="photos/keerthana_nagaradjane.png" alt="Keerthana Nagaradjane" /></div>
+        <div class="member-name">Keerthana Nagaradjane</div>
+        <div class="member-qr"><img src="data:image/png;base64,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" alt="Keerthana Nagaradjane LinkedIn QR" /><div class="qr-label">LinkedIn</div></div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <img class="cccl-logo" src="cccl-badge-dark.svg" alt="CCCL" />
+      <div class="url">Bengaluru &nbsp;·&nbsp; cccl.ai</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
