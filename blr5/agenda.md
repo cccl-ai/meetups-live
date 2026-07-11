@@ -6,7 +6,7 @@ event_date: "Saturday 12 July 2026"
 subtitle: "CCCL x SurrealDB — Memory, Context & Agents"
 meta:
   - label: Doors
-    value: "09:30 — Coffee"
+    value: "09:30 — Doors Open"
   - label: Talks
     value: "10:00 – 12:30"
   - label: Venue
@@ -45,10 +45,10 @@ Anyone on the internet can read it. Therefore:
 
 | Time | What |
 |------|------|
-| 09:30 | Doors open |
+| 09:30 | Doors Open |
 | 10:00 | Welcome — Vikram |
 
-### Talks
+### Talks (First Half)
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
@@ -56,30 +56,41 @@ Anyone on the internet can read it. Therefore:
 | 10:30 | <a href="slides/abhishek_das">Abhishek Das</a><br><a href="slides/abhishek_das" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Enabling Multi-Model Agents on Agno with SurrealDB | 20 min |
 | 10:50 | <a href="slides/farhan_khan">Farhan Khan</a><br><a href="slides/farhan_khan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Persistent memory engine for Claude agents on SurrealDB | 20 min |
 
+
+### First Half Lightning Talks 
+
+| Time | What |
+|------|------|
+| 11:10 | Lightning talks — open mic, anyone can speak (5 min) |
+
 ### Break
 
 | Time | What |
 |------|------|
-| 11:10 | Break — Networking & Refreshments |
+| 11:15 | Break — Networking |
 
 
-### Talks
+### Talks (Second Half)
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
-| 11:50 | <a href="slides/deven_mehta">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
-| 12:10 | <a href="slides/vidhunnan_murugan">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
+| 11:45 | <a href="slides/deven_mehta">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
+| 12:05 | <a href="slides/vidhunnan_murugan">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
 
+### Second Half Lightning Talks
+
+| Time | What |
+|------|------|
+| 12:25 | Lightning talks — open mic, anyone can speak (5 min) |
 
 ### Closing
 
 | Time | What |
 |------|------|
-| 12:30 | Open Q&A & networking |
+| 12:30 | Networking & Food |
 | 13:15 | Closing — Vikram |
 
 ---
-
 
 
 ## Speakers
