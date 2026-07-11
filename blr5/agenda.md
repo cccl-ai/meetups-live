@@ -6,7 +6,7 @@ event_date: "Saturday 12 July 2026"
 subtitle: "CCCL x SurrealDB — Memory, Context & Agents"
 meta:
   - label: Doors
-    value: "09:30 — food & drinks"
+    value: "09:30 — Coffee"
   - label: Talks
     value: "10:00 – 12:30"
   - label: Venue
@@ -45,7 +45,7 @@ Anyone on the internet can read it. Therefore:
 
 | Time | What |
 |------|------|
-| 09:30 | Doors open — food & drinks |
+| 09:30 | Doors open |
 | 10:00 | Welcome — Vikram |
 
 ### Talks
@@ -60,7 +60,7 @@ Anyone on the internet can read it. Therefore:
 
 | Time | What |
 |------|------|
-| 11:10 | Break — networking & refreshments |
+| 11:10 | Break — Networking & Refreshments |
 
 
 ### Talks
