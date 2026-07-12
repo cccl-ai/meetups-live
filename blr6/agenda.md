@@ -52,10 +52,10 @@ Anyone on the internet can read it. Therefore:
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
-| 18:30 | <a href="slides/vikram_pawar">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Greetings & welcome | 10 min |
-| 18:40 | <a href="slides/dr_chinmay_hegde">Dr Chinmay Hegde</a><br><a href="slides/dr_chinmay_hegde" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Security and Ethical Scare of Industrial AI | 15 min |
-| 18:55 | <a href="slides/lakshmi_narayana">Lakshmi Narayana</a><br><a href="slides/lakshmi_narayana" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Architecture-as-Context: Building AI-Native Engineering Governance with Claude Code | 15 min |
-| 19:10 | <a href="slides/nanda_kumar">Nanda Kumar</a><br><a href="slides/nanda_kumar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | When System Prompt fails — Constitutional AI by Anthropic | 15 min |
+| 18:30 | <a href="https://www.linkedin.com/in/vikrammpawar/" target="_blank">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Greetings & welcome | 10 min |
+| 18:40 | <a href="https://www.linkedin.com/in/chinmayth/" target="_blank">Dr Chinmay Hegde</a><br><a href="slides/dr_chinmay_hegde" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Security and Ethical Scare of Industrial AI | 15 min |
+| 18:55 | <a href="https://www.linkedin.com/in/lakshnarasimhan/" target="_blank">Lakshmi Narayana</a><br><a href="slides/lakshmi_narayana" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Architecture-as-Context: Building AI-Native Engineering Governance with Claude Code | 15 min |
+| 19:10 | <a href="https://www.linkedin.com/in/nandakumar80/" target="_blank">Nanda Kumar</a><br><a href="slides/nanda_kumar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | When System Prompt fails — Constitutional AI by Anthropic | 15 min |
 
 
 ### Break
@@ -68,9 +68,9 @@ Anyone on the internet can read it. Therefore:
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
-| 20:00 | <a href="slides/geetansh_aditya">Geetansh Aditya</a><br><a href="slides/geetansh_aditya" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Agentic Prompt Injection: how-to, impact & offensive tooling | 15 min |
-| 20:15 | <a href="slides/aranya_bandhu">Aranya Bandhu</a><br><a href="slides/aranya_bandhu" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Autonomous AI Agent that helps in Autonomous Payments using Harnessing and Guardrailing AI | 15 min |
-| 20:30 | <a href="slides/rohit_madhavan">Rohit Madhavan</a><br><a href="slides/rohit_madhavan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Train the Team, Not the Analyst: An RL Gym for Securing AI SOC Agents | 15 min |
+| 20:00 | <a href="https://www.linkedin.com/in/geetansh-aditya/" target="_blank">Geetansh Aditya</a><br><a href="slides/geetansh_aditya" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Agentic Prompt Injection: how-to, impact & offensive tooling | 15 min |
+| 20:15 | <a href="https://www.linkedin.com/in/aranyabandhu" target="_blank">Aranya Bandhu</a><br><a href="slides/aranya_bandhu" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Autonomous AI Agent that helps in Autonomous Payments using Harnessing and Guardrailing AI | 15 min |
+| 20:30 | <a href="https://www.linkedin.com/in/rohitmadhavan" target="_blank">Rohit Madhavan</a><br><a href="slides/rohit_madhavan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Train the Team, Not the Analyst: An RL Gym for Securing AI SOC Agents | 15 min |
 
 
 
@@ -87,13 +87,13 @@ Anyone on the internet can read it. Therefore:
 
 ## Speakers
 
-- **Vikram Pawar** — Claude Community Ambassador · CCCL.ai Founder · RUMQ.ai Founder · Greetings & welcome
-- **Dr Chinmay Hegde** — CEO & Managing Director · Astrikos AI · Security and Ethical Scare of Industrial AI
-- **Lakshmi Narayana** — Director of Engineering · Capital One · Architecture-as-Context: Building AI-Native Engineering Governance with Claude Code
-- **Nanda Kumar** — Applied AI & AI Security Leader · When System Prompt fails — Constitutional AI by Anthropic
-- **Geetansh Aditya** — Cybersecurity Analyst · Agentic Prompt Injection: how-to, impact & offensive tooling
-- **Aranya Bandhu** — AI Harness Engineer · Autonomous AI Agent that helps in Autonomous Payments using Harnessing and Guardrailing AI
-- **Rohit Madhavan** — Security Analyst · Train the Team, Not the Analyst: An RL Gym for Securing AI SOC Agents
+- **[Vikram Pawar](https://www.linkedin.com/in/vikrammpawar/)** — Claude Community Ambassador · CCCL.ai Founder · RUMQ.ai Founder · Greetings & welcome
+- **[Dr Chinmay Hegde](https://www.linkedin.com/in/chinmayth/)** — CEO & Managing Director · Astrikos AI · Security and Ethical Scare of Industrial AI
+- **[Lakshmi Narayana](https://www.linkedin.com/in/lakshnarasimhan/)** — Director of Engineering · Capital One · Architecture-as-Context: Building AI-Native Engineering Governance with Claude Code
+- **[Nanda Kumar](https://www.linkedin.com/in/nandakumar80/)** — Applied AI & AI Security Leader · When System Prompt fails — Constitutional AI by Anthropic
+- **[Geetansh Aditya](https://www.linkedin.com/in/geetansh-aditya/)** — Cybersecurity Analyst · Agentic Prompt Injection: how-to, impact & offensive tooling
+- **[Aranya Bandhu](https://www.linkedin.com/in/aranyabandhu)** — AI Harness Engineer · Autonomous AI Agent that helps in Autonomous Payments using Harnessing and Guardrailing AI
+- **[Rohit Madhavan](https://www.linkedin.com/in/rohitmadhavan)** — Security Analyst · Train the Team, Not the Analyst: An RL Gym for Securing AI SOC Agents
 
 ## About
 
