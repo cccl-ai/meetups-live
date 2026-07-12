@@ -52,9 +52,9 @@ Anyone on the internet can read it. Therefore:
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
-| 10:00 | <a href="slides/vikram_pawar">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Greetings & welcome | 10 min |
-| 10:30 | <a href="slides/abhishek_das">Abhishek Das</a><br><a href="slides/abhishek_das" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Enabling Multi-Model Agents on Agno with SurrealDB | 20 min |
-| 10:50 | <a href="slides/farhan_khan">Farhan Khan</a><br><a href="slides/farhan_khan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Persistent memory engine for Claude agents on SurrealDB | 20 min |
+| 10:00 | <a href="https://www.linkedin.com/in/vikrammpawar/" target="_blank">Vikram Pawar</a><br><a href="slides/vikram_pawar" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Greetings & welcome | 10 min |
+| 10:30 | <a href="https://www.linkedin.com/in/abhishekdas2512/" target="_blank">Abhishek Das</a><br><a href="slides/abhishek_das" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Enabling Multi-Model Agents on Agno with SurrealDB | 20 min |
+| 10:50 | <a href="https://www.linkedin.com/in/arriqaaq/" target="_blank">Farhan Khan</a><br><a href="slides/farhan_khan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Persistent memory engine for Claude agents on SurrealDB | 20 min |
 
 
 ### First Half Lightning Talks 
@@ -74,8 +74,8 @@ Anyone on the internet can read it. Therefore:
 
 | Time | Speaker | Topic | Slot |
 |------|---------|-------|------|
-| 11:45 | <a href="slides/deven_mehta">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
-| 12:05 | <a href="slides/vidhunnan_murugan">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
+| 11:45 | <a href="https://www.linkedin.com/in/devenmehta14/" target="_blank">Deven Mehta</a><br><a href="slides/deven_mehta" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | The AI-First Moat: How Small Teams Compete Against Giants | 20 min |
+| 12:05 | <a href="https://www.linkedin.com/in/vidhunnan/" target="_blank">Vidhunnan Murugan</a><br><a href="slides/vidhunnan_murugan" style="font-size:0.75em; color:#a8a4a0;">view slide</a> | Writing for Machines: The Non-Coder's Context Stack | 20 min |
 
 ### Second Half Lightning Talks
 
@@ -95,11 +95,11 @@ Anyone on the internet can read it. Therefore:
 
 ## Speakers
 
-- **Vikram Pawar** — Claude Community Ambassador · CCCL.ai Founder · RUMQ.ai Founder · Greetings & welcome
-- **Abhishek Das** — CTO & Co-Founder · SourcingXPress · Enabling Multi-Model Agents on Agno with SurrealDB
-- **Farhan Khan** — Senior Software Engineer · SurrealDB · Persistent memory engine for Claude agents on SurrealDB
-- **Deven Mehta** — CFA · Head of Business & Strategy @ Sahi · The AI-First Moat: How Small Teams Compete Against Giants
-- **Vidhunnan Murugan** — Product Designer · Writing for Machines: The Non-Coder's Context Stack
+- **[Vikram Pawar](https://www.linkedin.com/in/vikrammpawar/)** — Claude Community Ambassador · CCCL.ai Founder · RUMQ.ai Founder · Greetings & welcome
+- **[Abhishek Das](https://www.linkedin.com/in/abhishekdas2512/)** — CTO & Co-Founder · SourcingXPress · Enabling Multi-Model Agents on Agno with SurrealDB
+- **[Farhan Khan](https://www.linkedin.com/in/arriqaaq/)** — Senior Software Engineer · SurrealDB · Persistent memory engine for Claude agents on SurrealDB
+- **[Deven Mehta](https://www.linkedin.com/in/devenmehta14/)** — CFA · Head of Business & Strategy @ Sahi · The AI-First Moat: How Small Teams Compete Against Giants
+- **[Vidhunnan Murugan](https://www.linkedin.com/in/vidhunnan/)** — Product Designer · Writing for Machines: The Non-Coder's Context Stack
 
 ## About
 
